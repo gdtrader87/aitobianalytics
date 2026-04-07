@@ -1,14 +1,12 @@
-import About from "../components/About/About";
-import Blog from "../components/Blog/Blog";
-import Contact from "../components/Contact/Contact";
-import Experience from "../components/Experience/Experience";
-import Footer from "../components/Footer/Footer";
-import Hero from "../components/Hero/Hero";
-import Portfolio from "../components/Portfolio/Portfolio";
-import Service from "../components/Service/Service";
-// import SubscribeForm from "../components/SubscribeForm/SubscribeForm";
-// import Testimonial from "../components/Testimonial/Testimonial";
-import data from "../data.json";
+import About from '../components/About/About';
+import Blog from '../components/Blog/Blog';
+import Contact from '../components/Contact/Contact';
+import Experience from '../components/Experience/Experience';
+import Footer from '../components/Footer/Footer';
+import Hero from '../components/Hero/Hero';
+import Portfolio from '../components/Portfolio/Portfolio';
+import Service from '../components/Service/Service';
+import data from '../data.json';
 
 const Home = () => {
   const {
@@ -18,24 +16,21 @@ const Home = () => {
     portfolioData,
     serviceData,
     blogData,
-    // sliderData,
     contactData,
     footerData,
   } = data;
+
   return (
-    <>
-      <main className="wrapper">
-        <Hero data={heroData} />
-        <About data={aboutData} />
-        <Experience data={experienceData} />
-        <Service data={serviceData} />
-        <Portfolio data={portfolioData} />
-        <Blog data={blogData} />
-        <Contact data={contactData} />
-        {/* <SubscribeForm /> */}
-        <Footer data={footerData} />
-      </main>
-    </>
+    <main className="lg:pl-[280px]">
+      <Hero data={heroData} />
+      <About data={aboutData} />
+      <Experience data={experienceData} />
+      <Service data={serviceData} />
+      <Portfolio data={portfolioData} />
+      <Blog data={blogData} />
+      <Contact data={contactData} />
+      <Footer data={footerData} />
+    </main>
   );
 };
 

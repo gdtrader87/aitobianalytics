@@ -3,20 +3,45 @@ import { useEffect, useState } from 'react';
 import { Icon } from '@iconify/react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { socialData } from '../../data.json';
+import {
+  Sheet,
+  SheetTrigger,
+  SheetContent,
+  SheetHeader,
+  SheetTitle,
+} from '@/components/ui/sheet';
+import { Button } from '@/components/ui/button';
+import { Separator } from '@/components/ui/separator';
+
+const NAV_ITEMS = [
+  { id: 'home', label: 'Home' },
+  { id: 'about', label: 'About' },
+  { id: 'services', label: 'Services' },
+  { id: 'work', label: 'Portfolio' },
+  { id: 'blog', label: 'Blog' },
+  { id: 'contact', label: 'Contact' },
+];
+
+const BrandLogo = () => (
+  <div className="flex items-center gap-2">
+    <div className="flex items-center gap-0.5">
+      <span className="text-lg font-bold text-theme tracking-tight">AI</span>
+      <span className="text-xs text-white/50 mx-0.5">&raquo;</span>
+      <span className="text-lg font-bold text-theme tracking-tight">BI</span>
+    </div>
+    <div className="h-5 w-px bg-white/20" />
+    <span className="text-sm font-medium text-white/80 tracking-wide">Analytics</span>
+  </div>
+);
 
 const Header = ({ data }) => {
-  const { logoDark, logoLight } = data;
-  const [mobileToggle, setMobileToggle] = useState(false);
   const [activeLink, setActiveLink] = useState('home');
+  const [sheetOpen, setSheetOpen] = useState(false);
   const location = useLocation();
   const navigate = useNavigate();
 
-  const handleMobileToggle = () => {
-    setMobileToggle(!mobileToggle);
-  };
-
   const handleNavigation = (to) => {
-    setMobileToggle(false);
+    setSheetOpen(false);
     if (location.pathname !== '/') {
       navigate('/', { state: { scrollTo: to } });
     } else {
@@ -30,7 +55,7 @@ const Header = ({ data }) => {
 
   const handleScroll = () => {
     if (location.pathname === '/') {
-      const sections = ['home', 'about', 'services', 'work', 'blog', 'contact'];
+      const sections = NAV_ITEMS.map((item) => item.id);
       let currentSection = 'home';
 
       for (const section of sections) {
@@ -66,91 +91,124 @@ const Header = ({ data }) => {
     };
   }, [location, navigate]);
 
-  const menuItems = ['home', 'about', 'services', 'work', 'blog', 'contact'];
+  /* Shared nav link list */
+  const NavLinks = ({ onClick }) => (
+    <ul className="flex flex-col gap-1">
+      {NAV_ITEMS.map((item) => (
+        <li key={item.id}>
+          <a
+            href={`/#${item.id}`}
+            className={`
+              block px-4 py-2.5 rounded-lg text-sm font-medium tracking-wide uppercase transition-all duration-200
+              ${
+                activeLink === item.id
+                  ? 'text-theme bg-theme/10 border-l-2 border-theme'
+                  : 'text-white/70 hover:text-white hover:bg-white/5'
+              }
+            `}
+            onClick={(e) => {
+              e.preventDefault();
+              handleNavigation(item.id);
+              if (onClick) onClick();
+            }}
+          >
+            {item.label}
+          </a>
+        </li>
+      ))}
+      <li>
+        <a
+          href="https://alphadata-agentic-ai.netlify.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="block px-4 py-2.5 rounded-lg text-sm font-medium tracking-wide uppercase transition-all duration-200 text-white/70 hover:text-white hover:bg-white/5"
+          onClick={() => {
+            if (onClick) onClick();
+          }}
+        >
+          Agentic AI
+        </a>
+      </li>
+    </ul>
+  );
+
+  /* Shared social links */
+  const SocialLinks = () => (
+    <ul className="flex items-center gap-3">
+      {socialData.map((element, index) => (
+        <li key={index}>
+          <a
+            href={element.link}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center justify-center w-9 h-9 rounded-full bg-white/5 text-white/60 hover:bg-theme/20 hover:text-theme transition-all duration-200"
+          >
+            <Icon icon={`fa6-brands:${element.icon}`} className="text-base" />
+          </a>
+        </li>
+      ))}
+    </ul>
+  );
 
   return (
     <header>
-      {/* Mob header */}
-      <div className="mob-header" onClick={handleMobileToggle}>
-        <div className="mob-h-left">
-          <Link className="navbar-brand" to="/">
-            <img className="logo-dark" title="" alt="" src={logoDark} />
-            <img className="logo-light" title="" alt="" src={logoLight} />
+      {/* ===== Mobile Header Bar ===== */}
+      <div className="lg:hidden fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-4 py-3 bg-dark/95 backdrop-blur-md border-b border-white/5">
+        <Link to="/" className="block">
+          <BrandLogo />
+        </Link>
+
+        <Sheet open={sheetOpen} onOpenChange={setSheetOpen}>
+          <SheetTrigger asChild>
+            <Button variant="ghost" size="icon" className="text-white hover:bg-white/10">
+              <Icon icon="mingcute:menu-fill" className="text-xl" />
+            </Button>
+          </SheetTrigger>
+          <SheetContent
+            side="left"
+            className="w-[280px] bg-dark border-r border-white/5 p-0 flex flex-col"
+          >
+            <SheetHeader className="p-6 pb-4">
+              <SheetTitle className="sr-only">Navigation Menu</SheetTitle>
+              <Link to="/" onClick={() => setSheetOpen(false)}>
+                <BrandLogo />
+              </Link>
+            </SheetHeader>
+            <Separator className="bg-white/5" />
+            <nav className="flex-1 overflow-y-auto px-3 py-4 custom-scrollbar">
+              <NavLinks onClick={() => setSheetOpen(false)} />
+            </nav>
+            <Separator className="bg-white/5" />
+            <div className="p-4">
+              <SocialLinks />
+            </div>
+          </SheetContent>
+        </Sheet>
+      </div>
+
+      {/* ===== Desktop Fixed Sidebar ===== */}
+      <aside className="hidden lg:flex fixed top-0 left-0 w-[280px] h-screen z-50 flex-col bg-dark border-r border-white/5">
+        {/* Logo */}
+        <div className="px-6 py-8">
+          <Link to="/" className="block">
+            <BrandLogo />
           </Link>
         </div>
-        <div className="mob-h-right">
-          <button className="toggler-menu">
-            {
-              mobileToggle ? <Icon icon="mingcute:close-fill" /> :
-                <Icon icon="mingcute:menu-fill" />
-            }
-            {/* <span/> */}
-          </button>
+
+        <Separator className="bg-white/5" />
+
+        {/* Nav Links */}
+        <nav className="flex-1 overflow-y-auto px-3 py-6 custom-scrollbar">
+          <NavLinks />
+        </nav>
+
+        <Separator className="bg-white/5" />
+
+        {/* Social Links */}
+        <div className="px-6 py-5">
+          <SocialLinks />
         </div>
-      </div>
-      {/* End */}
-      {/* Header Top */}
-      <div
-        className={`header-left-fixed one-page-nav ${mobileToggle ? 'menu-open' : ''
-          }`}
-      >
-        {/* Brand */}
-        <div className="logo">
-          <Link className="navbar-brand" to="/">
-            <img
-              className="logo-dark"
-              title="Umair"
-              alt="site-logo"
-              src={logoDark}
-            />
-            <img
-              className="logo-light"
-              title="Umair"
-              alt="site-logo"
-              src={logoLight}
-            />
-          </Link>
-        </div>
-        {/* / */}
-        <ul className="main-menu custom-scrollbar">
-          {menuItems.map((item) => (
-            <li key={item}>
-              <a
-                href={`/#${item}`}
-                className={activeLink === item ? 'active' : ''}
-                onClick={(e) => {
-                  e.preventDefault();
-                  handleNavigation(item);
-                }}
-              >
-                {item.charAt(0).toUpperCase() + item.slice(1)}
-              </a>
-            </li>
-          ))}
-          <li>
-            <Link
-              to="/newsletter"
-              className={activeLink === 'newsletter' ? 'active' : ''}
-              onClick={() => {
-                setMobileToggle(false);
-                setActiveLink('newsletter');
-              }}
-            >
-              Newsletter
-            </Link>
-          </li>
-        </ul>
-        <ul className="nav social-link">
-          {socialData.map((element, index) => (
-            <li key={index}>
-              <a href={element.link} target="_blank" rel="noopener noreferrer">
-                <Icon icon={`fa6-brands:${element.icon}`} />
-              </a>
-            </li>
-          ))}
-        </ul>
-      </div>
-      {/* End Header Top */}
+      </aside>
     </header>
   );
 };
@@ -160,148 +218,3 @@ Header.propTypes = {
 };
 
 export default Header;
-
-
-// import PropTypes from 'prop-types';
-// import { useState } from 'react';
-// import { Icon } from '@iconify/react';
-// import { Link } from 'react-router-dom';
-// import { Link as ScrollLink } from 'react-scroll';
-// import { socialData } from '../../data.json';
-
-// const Header = ({ data }) => {
-//   const { logoDark, logoLight } = data;
-
-//   const [mobileToggle, setMobileToggle] = useState(false);
-
-//   const handleMobileToggle = () => {
-//     setMobileToggle(!mobileToggle);
-//   };
-
-//   return (
-//     <header>
-//       {/* Mob header */}
-//       <div className="mob-header" onClick={handleMobileToggle}>
-//         <div className="mob-h-left">
-//           <Link className="navbar-brand" to="/">
-//             <img className="logo-dark" title="" alt="" src={logoDark} />
-//             <img className="logo-light" title="" alt="" src={logoLight} />
-//           </Link>
-//         </div>
-//         <div className="mob-h-right">
-//           <button className="toggler-menu">
-//             {
-//               mobileToggle?<Icon icon="mingcute:close-fill"/>:
-//               <Icon icon="mingcute:menu-fill"/>
-//             }
-//             {/* <span/> */}
-//           </button>
-//         </div>
-//       </div>
-//       {/* End */}
-//       {/* Header Top */}
-//       <div
-//         className={`header-left-fixed one-page-nav ${
-//           mobileToggle ? 'menu-open' : ''
-//         }`}
-//       >
-//         {/* Brand */}
-//         <div className="logo">
-//           <Link className="navbar-brand" to="/">
-//             <img
-//               className="logo-dark"
-//               title="Umair"
-//               alt="site-logo"
-//               src={logoDark}
-//             />
-//             <img
-//               className="logo-light"
-//               title="Umair"
-//               alt="site-logo"
-//               src={logoLight}
-//             />
-//           </Link>
-//         </div>
-//         {/* / */}
-//         <ul className="main-menu custom-scrollbar">
-//           <li>
-//             <ScrollLink
-//               to="home"
-//               spy={true}
-//               duration={500}
-//               onClick={() => setMobileToggle(false)}
-//             >
-//               Home
-//             </ScrollLink>
-//           </li>
-//           <li>
-//             <ScrollLink
-//               to="about"
-//               spy={true}
-//               duration={500}
-//               onClick={() => setMobileToggle(false)}
-//             >
-//               About
-//             </ScrollLink>
-//           </li>
-//           <li>
-//             <ScrollLink
-//               to="services"
-//               spy={true}
-//               duration={500}
-//               onClick={() => setMobileToggle(false)}
-//             >
-//               Services
-//             </ScrollLink>
-//           </li>
-//           <li>
-//             <ScrollLink
-//               to="work"
-//               spy={true}
-//               duration={500}
-//               onClick={() => setMobileToggle(false)}
-//             >
-//               Portfolio
-//             </ScrollLink>
-//           </li>
-//           <li>
-//             <ScrollLink
-//               to="blog"
-//               spy={true}
-//               duration={500}
-//               onClick={() => setMobileToggle(false)}
-//             >
-//               Blog
-//             </ScrollLink>
-//           </li>
-//           <li>
-//             <ScrollLink
-//               to="contact"
-//               spy={true}
-//               duration={500}
-//               onClick={() => setMobileToggle(false)}
-//             >
-//               Contact
-//             </ScrollLink>
-//           </li>
-//         </ul>
-//         <ul className="nav social-link">
-//           {socialData.map((element, index) => (
-//             <li key={index}>
-//               <a href={element.link} target="_blank" rel="noopener noreferrer">
-//                 <Icon icon={`fa6-brands:${element.icon}`} />
-//               </a>
-//             </li>
-//           ))}
-//         </ul>
-//       </div>
-//       {/* End Header Top */}
-//     </header>
-//   );
-// };
-
-// Header.propTypes = {
-//   data: PropTypes.object,
-// };
-
-// export default Header;

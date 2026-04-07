@@ -5,11 +5,11 @@
   },
   "heroData": {
     "title": "My name<br />is <b>Umair</b> <span><br />Tareen...</span>",
-    "subTitle1": "<span>Business Intelligence Specialist</span>",
-    "subTitle2": "<span>Data Engineer</span>",
-    "subTitle3": "<span>AI Solutions Architect</span>",
-    "subTitle4": "<span>Analytics Engineer</span>",
-    "location":"based in <span>USA</span>",
+    "subTitle1": "<span>VP of Data, Analytics & AI</span>",
+    "subTitle2": "<span>AI Solutions Architect</span>",
+    "subTitle3": "<span>Agentic AI Enterprise Leader</span>",
+    "subTitle4": "<span>Analytics & BI Leader</span>",
+    "location": "based in <span>USA</span>",
     "ImgLink": "/images/home-banner.png",
     "phone": "",
     "email": "umair@aitobianalytics.com",
@@ -20,26 +20,20 @@
         "icon": "linkedin"
       },
       {
-        "link": "https://www.instagram.com/tareen_ua/",
-        "icon": "instagram"
-      },
-      {
         "link": "https://x.com/UAT_34",
         "icon": "twitter"
       }
-
     ]
   },
   "aboutData": {
     "aboutLeft": {
       "ImgLink": "/images/about-banner.png",
       "name": "Umair Tareen",
-      "designation": "Business Intelligence Specialist | Data Engineer | AI Solutions Specialist | Analytics Engineer <span>based in</span> USA",
-      "resumeCv": "https://drive.google.com/file/d/1Yuzs2EpagA8RGyG6yk8yISpXHaEhhClD/view?usp=drive_link"
-      
+      "designation": "VP of Data, Analytics & AI | Enterprise Data Architect | Agentic AI Enterprise Leader <span>based in</span> USA",
+      "resumeCv": ""
     },
     "aboutRight": {
-      "aboutText": "As a dynamic professional with expertise in Data Engineering, Analytics, Business Intelligence, Machine Learning, and Generative AI, I thrive in diverse technological landscapes. My agility in team leadership and strategy execution extends beyond Business Intelligence, encompassing various facets of data and technology. My passion lies in driving innovation across multiple domains, leveraging a rich tapestry of perspectives to forge comprehensive and robust solutions. With a career spanning several industries, I bring a holistic and adaptable approach to problem-solving, making me a valuable asset in any technological or financial environment.",
+      "aboutText": "I am a VP of Data, Analytics & AI with 14+ years of experience architecting enterprise-scale data platforms and transforming raw data into competitive advantage. Currently leading the data vision at Alpha Data Capital, I specialize in Enterprise Data Architecture, Agentic AI frameworks, and building self-governing AI systems that drive autonomous decision-making across financial and enterprise environments. My career spans leading data organizations at Nomura, Adobe, and MUFG, where I directed cross-functional teams in delivering large-scale BI, data engineering, and AI initiatives. I bridge the gap between executive strategy and technical execution - designing cloud-native architectures, implementing Agentic AI pipelines, and establishing governance frameworks that turn messy data into decisions that matter.",
       "contactInfo": [
         {
           "icon": "phone",
@@ -63,82 +57,162 @@
           "number": "14+",
           "meta": "Years <br /> experience...",
           "text": "These collaborations have allowed me to refine my skills in <span>data visualization</span>, <span> predictive modeling</span>, and <span> strategic decision-making</span>, ensuring data-driven success in a variety of market conditions.",
-          "logos": ["/images/skills-sap-business-objects.png", "/images/skills-Tableau_Logo.png", "/images/skills-power-bi.png","images/skills-Databricks_Logo.png","images/skills-aws.png","images/skills-Microsoft_Azure-Logo.png","images/skills-Snowflake_Logo.png","images/skills-Google_Cloud_logo.png","images/skills-SAC-Header.png","/images/skills-redshift.png"]
+          "logos": [
+            "/images/skills-sap-business-objects.png",
+            "/images/skills-Tableau_Logo.png",
+            "/images/skills-power-bi.png",
+            "images/skills-Databricks_Logo.png",
+            "images/skills-aws.png",
+            "images/skills-Microsoft_Azure-Logo.png",
+            "images/skills-Snowflake_Logo.png",
+            "images/skills-Google_Cloud_logo.png",
+            "images/skills-SAC-Header.png",
+            "/images/skills-redshift.png"
+          ]
         },
         {
           "number": "12+",
           "meta": "Clients <br /> Worldwide...",
           "text": " With over a decade of experience in business analytics and data architecture. Below are some of the esteemed clients I've had the pleasure to work with, contributing my expertise in areas such as <span>data analytics</span>, <span>machine learning</span>, and <span>business intelligence</span>:",
-          "logos": ["/images/client-adobe-1-logo-png-transparent.png", "/images/client-nasdaq-transparent.png", "/images/client-WWE_Network_logo.png","/images/client-general-motors-logo.png","/images/client-Henry-Schein-Logo.SVG.png","/images/client-Synovus_wordmark.png","/images/client-MUFG_logo.png","images/client-Nomura_Holdings_logo.png","images/client-axis-logo.png","/images/client-Q_PERIOR.png"]
+          "logos": [
+            "/images/client-adobe-1-logo-png-transparent.png",
+            "/images/client-nasdaq-transparent.png",
+            "/images/client-WWE_Network_logo.png",
+            "/images/client-general-motors-logo.png",
+            "/images/client-Henry-Schein-Logo.SVG.png",
+            "/images/client-Synovus_wordmark.png",
+            "/images/client-MUFG_logo.png",
+            "images/client-Nomura_Holdings_logo.png",
+            "images/client-axis-logo.png",
+            "/images/client-Q_PERIOR.png"
+          ]
         }
       ],
       "note": "“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus sed sit ultrices et sed metus sollicitudin.”"
     }
   },
   "experienceData": {
-  "text": "My academic journey is rooted in a deep passion for computer science, finance, and technology innovation. I hold a Bachelor of Science in Computer Science from the New York Institute of Technology, where I developed a strong foundation in software engineering, data structures, and systems architecture. Recognizing the growing intersection of technology and finance, I expanded my expertise through an MBA with a CFA specialization, allowing me to dive deep into financial analytics, stock market modeling, and quantitative analysis. My tenure at Nasdaq played a pivotal role in shaping my understanding of the financial ecosystem, refining my ability to leverage data-driven insights in capital markets. This unique combination of technical and financial acumen led me to specialize in FinTech, where I’ve contributed to the development of risk management frameworks, AI-driven financial models, and compliance automation. However, my expertise extends beyond this domain. I’ve successfully consulted for hedge funds, technology firms, and governance, risk, and compliance (GRC) companies, applying data analytics, AI, and business intelligence to drive strategic decision-making. Whether it's designing robust financial models, optimizing data pipelines, or enhancing enterprise technology solutions, I bring a holistic understanding of technology-driven business transformation to every project I engage with.",
-    "resumeCv": "/Resume.pdf",
+    "text": "My academic foundation combines Computer Science with financial analytics. I hold a Bachelor of Science in Computer Science from the New York Institute of Technology (Phi Eta Sigma National Honor) and a Master of Business Administration with a Chartered Financial Analyst concentration from Quinnipiac University (Magna Cum Laude). This dual expertise in technology and finance has been the engine behind 14+ years of data leadership across capital markets, enterprise tech, and AI.",
+    "resumeCv": "",
     "experience": [
       {
-        "degree":"Computer Science",
-        "institute":"New York Institute of Technology",
-        "award":"Phi Eta Sigma National Honor"
+        "degree": "Computer Science",
+        "institute": "New York Institute of Technology",
+        "award": "Phi Eta Sigma National Honor"
       },
       {
-        "degree":"Masters of Business Administration – Specialty Track: Chartered Financial Analyst",
-        "institute":"Quinnipiac University",
-        "award":"Magna Cumma Laude"
+        "degree": "Master of Business Administration, Chartered Financial Analyst Concentration",
+        "institute": "Quinnipiac University",
+        "award": "Magna Cum Laude"
+      }
+    ],
+    "careerTimeline": [
+      {
+        "company": "Infosys",
+        "industry": "IT & Consulting"
+      },
+      {
+        "company": "Axis Reinsurance",
+        "industry": "Insurance & Risk"
+      },
+      {
+        "company": "WWE",
+        "industry": "Entertainment & Media"
+      },
+      {
+        "company": "Qperior Consulting",
+        "industry": "Strategy Consulting"
+      },
+      {
+        "company": "Nasdaq - BWise (GRC)",
+        "industry": "Governance, Risk & Compliance"
+      },
+      {
+        "company": "MUFG",
+        "industry": "Investment Banking"
+      },
+      {
+        "company": "Adobe",
+        "industry": "Enterprise Technology"
+      },
+      {
+        "company": "Nomura",
+        "industry": "Investment Banking"
+      },
+      {
+        "company": "Citi Bank",
+        "industry": "Banking & Finance"
       }
     ]
   },
   "serviceData": [
     {
-      "title": "Business Intelligence Specialist",
-      "heading": "Business Intelligence Expert",
+      "title": "AI Solutions Architecture",
+      "heading": "AI Solutions Architect",
       "triger": "One",
       "imgLink": "/images/services-1.jpg",
-      "text": "As a seasoned Business Intelligence Specialist, I harness the full spectrum of data analytics to transform raw data into strategic assets. My proficiency spans from designing intuitive dashboards to developing comprehensive reporting systems that empower decision-makers. With a deep-rooted understanding of data lifecycle management, I am adept at identifying trends and patterns that lead to impactful business insights. Leveraging a blend of technical skills in Tableau, Power BI, and data modeling, I deliver solutions that encapsulate the narrative of data, driving growth and innovation. My commitment to excellence is reflected in the precision of my analytics and the clarity of the visualizations that inform and inspire business strategy."
+      "text": "I design end-to-end AI solutions that bridge cutting-edge machine learning with enterprise-grade infrastructure. From architecting cloud-native data lakehouses on Snowflake, Databricks, and Azure Synapse to deploying production ML pipelines and LLM-powered applications, I build AI systems that are scalable, governed, and aligned to business outcomes. My solutions span predictive modeling, NLP, computer vision, and retrieval-augmented generation (RAG) - turning complex AI capabilities into reliable, measurable tools that drive real competitive advantage."
     },
     {
-      "title": "Data Engineering",
-      "heading": "Lofty Data Engineer",
+      "title": "Agentic AI & Intelligent Automation",
+      "heading": "Agentic AI Enterprise Leader",
       "triger": "Two",
       "imgLink": "/images/services-2.jpg",
-      "text": "In the realm of Data Engineering, my expertise lies in constructing robust data infrastructures that form the backbone of enterprise analytics. With a meticulous approach to data integration and system design, I craft pipelines that are not only efficient but scalable to the evolving demands of business intelligence. My hands-on experience with modern data management tools and cloud-based architectures ensures that data flows seamlessly, enabling advanced analytics that support real-time business operations. As a guardian of data integrity, I implement solutions that uphold the highest standards of quality and compliance, ensuring that the data platforms I develop become the trusted source for organizational knowledge."
+      "text": "I lead the design and deployment of Agentic AI frameworks - autonomous, multi-agent systems that reason, plan, and act across complex enterprise workflows without constant human intervention. Leveraging LLM orchestration, tool-use patterns, and retrieval-augmented generation (RAG), I build AI agents that automate decision pipelines in finance, analytics, and operations. My work bridges the gap between cutting-edge AI research and real-world enterprise execution, delivering self-governing systems that reduce latency, cut costs, and surface insights at machine speed."
     },
     {
-      "title": "AI Solutions Architect & Machine Learning Innovator",
-      "heading": "AI Solutions Architect | Machine Learning Engineer",
+      "title": "Data & AI Strategy Leadership",
+      "heading": "VP of Data, Analytics & AI",
       "triger": "Three",
       "imgLink": "/images/services-3.jpg",
-      "text": "Navigating the intersection of technology and strategy, I am an AI Solutions Architect & Machine Learning Innovator with a robust background in developing intelligent systems that drive data-driven decision-making. My expertise lies in crafting advanced AI models that not only solve complex problems but also pioneer new frontiers in machine learning. With a deep understanding of AI's transformative potential, I excel in turning theoretical AI concepts into scalable, real-world applications that bolster business intelligence, enhance data engineering processes, and revolutionize quantitative trading strategies."
+      "text": "As a VP-level data leader, I translate organizational goals into data and AI roadmaps that deliver measurable competitive advantage. I build and scale data organizations - hiring and mentoring teams, establishing data governance councils, and aligning cross-functional stakeholders from the C-suite to engineering. With experience leading data transformations at global institutions including Nomura, Adobe, and MUFG, I bring a proven track record of driving strategic initiatives that reduce risk, accelerate time-to-insight, and position data as a core business asset."
     },
     {
-      "title": "Analytics Professional",
-      "heading": "Analytics Engineer",
+      "title": "Business Intelligence & Analytics",
+      "heading": "Analytics & BI Leader",
       "triger": "Four",
       "imgLink": "/images/services-4.jpg",
-      "text": "As an Analytics Engineer, I integrate advanced data engineering techniques with analytics to deliver comprehensive, scalable solutions. My work encompasses the design and implementation of robust data pipelines, ensuring seamless data flow from source to analysis. Leveraging cutting-edge technologies and best practices in data management, I transform raw data into actionable insights, empowering businesses to make data-driven decisions. With a strong focus on automation and optimization, I enhance the efficiency and accuracy of data processes, driving innovation and achieving impactful results in various industries."
+      "text": "I deliver executive-grade business intelligence programs that go beyond dashboards - embedding analytics into decision workflows at every level of the organization. With deep expertise in Tableau, Power BI, SAP Analytics Cloud, and modern semantic modeling, I build self-service BI ecosystems where business users find answers independently and leadership has real-time visibility into what matters. My BI solutions are grounded in clean data architecture and governed metrics layers, ensuring that every insight produced is trustworthy, consistent, and actionable."
     }
   ],
   "portfolioData": [
     {
+      "ImgLink": "/images/beast-games-dashboard.png",
+      "subTitle": "AI & Data Analytics · YouTube × Amazon Prime",
+      "title": "Beast Games Content Intelligence Platform",
+      "link": "https://github.com/gdtrader87/beast-games-analysis",
+      "paragraphList": [
+        {
+          "text": "<strong>Overview</strong><br/>Collaborated on a full-stack data analytics platform built around MrBeast's <em>Beast Games</em> - the largest reality competition in YouTube history, which crossed 8.5M viewers on Amazon Prime for its Season 2 premiere. The project decodes the content strategy patterns driving viewership and engagement across MrBeast's multi-channel network (471M, 40M, and 26M subscribers), turning creative intuition into measurable, repeatable performance signals."
+        },
+        {
+          "text": "<strong>What Was Built</strong><br/>An interactive 9-tab Streamlit analytics dashboard covering: channel metrics, platform breakdowns, title optimization analysis, episode structure and retention curves, celebrity guest impact modeling, upload timing patterns, a content opportunity prediction matrix, and a fan engagement intelligence layer called <em>BeastBet</em> - an audience prediction system that connects analytics outputs directly back to production workflows."
+        },
+        {
+          "text": "<strong>Key Findings</strong><br/>• Titles of 6-9 words achieve the highest click-through rates; including prize amounts correlates with a ~31% CTR lift<br/>• Thursday-Saturday uploads generate ~18% more Day-1 views<br/>• Red/high-contrast thumbnails outperform muted designs by ~22%<br/>• A critical 34% audience drop-off occurs at the 14-16 minute mark - a direct signal for episode pacing decisions<br/>• Celebrity guest episodes average a <strong>2.1× viewership multiplier</strong>"
+        },
+        {
+          "text": "<strong>Tech Stack & Integration</strong><br/>Built in Python using <strong>pandas</strong>, <strong>NumPy</strong>, <strong>Plotly</strong>, <strong>scikit-learn</strong>, and <strong>SciPy</strong> for analysis and modeling. The front-end dashboard runs on <strong>Streamlit</strong>. Data is sourced live via the <strong>YouTube Data API v3</strong> and supplemented with Amazon Prime viewership metrics, managed through a YAML-based channel data store. A/B testing and anomaly detection modules (ab_testing.py, anomaly_detection.py) power the statistical rigor behind each recommendation."
+        }
+      ]
+    },
+    {
       "ImgLink": "/images/comingsoon-1.jpg",
-      "subTitle": "Data Analytics Case study",
-      "title": "Coming Soon!",
+      "subTitle": "Power BI · AI Strategy · Model Routing",
+      "title": "Enterprise AI Cost Optimization Dashboard",
       "link": "",
       "paragraphList": [
         {
-          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          "text": "<strong>Overview</strong><br/>A Power BI executive dashboard designed to visualize and optimize enterprise AI infrastructure spend. The dashboard provides real-time visibility into AI costs across model tiers, use cases, and business units, enabling data-driven decisions about where to invest, where to cut, and how to maximize ROI on AI initiatives."
         },
         {
-          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          "text": "<strong>Key Features</strong><br/>• <strong>Model Routing Analysis</strong> - Visualizes request distribution across model tiers (frontier vs. mid-tier vs. lightweight), identifying opportunities to route 60-70% of simple tasks to cheaper models<br/>• <strong>Cost-Per-Inference Tracking</strong> - Breaks down spend by department, use case, and model<br/>• <strong>Cache Hit Rate Monitoring</strong> - Measures semantic deduplication effectiveness and projects savings<br/>• <strong>Savings Simulator</strong> - Interactive what-if analysis showing projected cost reduction from implementing optimization strategies"
         },
         {
-          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          "text": "<strong>Business Impact</strong><br/>The framework demonstrates how enterprises can reduce AI infrastructure costs by 40%+ through intelligent model routing, tiered inference architecture, and governance-first design - without sacrificing model quality or response time."
         },
         {
-          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          "text": "<strong>Tech Stack</strong><br/>Built with <strong>Power BI</strong> (DAX, Power Query), connected to AI usage telemetry via <strong>Azure Monitor</strong> and <strong>REST APIs</strong>. Data modeling follows a star schema optimized for cost attribution across organizational hierarchies."
         }
       ]
     },
@@ -205,264 +279,223 @@
   ],
   "blogData": [
     {
-      "ImgLink": "/images/consulting.png",
-      "date": "28 January, 2025",
+      "ImgLink": "/images/blog/gap-widening-agentic-ai.jpg",
+      "date": "6 April, 2026",
       "delay": "700",
-      "title": "From Technical Expertise to Data Governance: My Journey in Data & Consulting",
+      "title": "🤖 The Gap Is Widening: Agentic AI Is No Longer Optional for Financial Services",
       "paragraphList": [
         {
-          "text": "For many in the tech world, the focus is often on problem-solving and execution getting the work done efficiently. But I’ve learned that true consulting, especially in Data Analytics, Data Engineering, and Governance, is about more than just technical expertise; it’s about understanding the client at a human level."
+          "text": "<em>Tags: Agentic AI, Financial Services · April 6, 2026 · 7 min read</em>"
         },
         {
-          "text": "My journey from being a highly technical professional to a banking and data governance consultant taught me that the strongest relationships in this industry aren’t built on just knowledge they’re built on trust, adaptability, and genuine connection."
+          "text": "I want to be honest with you. For the last two years, I sat through conference panels where \"agentic AI\" got tossed around like a magic word. Everyone nodded. Nobody was actually shipping it. That era is over, and if you're still waiting for permission to move, the gap between you and the leaders is widening by the day."
         },
         {
-          "text": "My transition from a hands-on technical expert to a trusted consultant in data governance and banking started when I joined BWise (now part of SAI Global) a GRC (Governance, Risk, and Compliance) platform. This experience didn’t just enhance my consulting skills; it fundamentally changed how I approached my work."
+          "text": "Here's what's changing my conversations with clients: according to Wolters Kluwer, 44% of finance teams will use agentic AI in 2026 - a 600% year-over-year jump. Organizations are hitting an average 2.3x return on agentic AI investments within 13 months. That's not a pilot metric anyone can explain away. That's production, and it's happening right now."
         },
         {
-          "text": "At BWise, I quickly realized that the most valuable consultants aren’t just technical problem-solvers; they are partners who deeply understand the client’s needs, struggles, and long-term goals. The platform itself was robust, but what really mattered was helping businesses make sense of their governance frameworks, improve compliance, and ensure data integrity across the board."
+          "text": "<strong>From Process-Driven to Outcome-Driven</strong>"
         },
         {
-          "text": "One of the defining moments in my career was when I stopped seeing my job as just “getting things done” and started focusing on building genuine rapport with clients."
+          "text": "Traditional AI in financial services was rules-based. Agentic AI is a different animal entirely - it plans, reasons, and adapts across multi-step workflows in real time. I'm watching agents handle end-to-end loan origination, real-time portfolio rebalancing inside risk limits, and AML workflows that escalate exceptions to humans without ever touching a ticket queue. These are not demos. I've seen them run in production."
         },
         {
-          "text": "✔️ Understanding Client Pain Points – Instead of diving straight into solutions, I took time to listen to clients' frustrations and concerns beyond the technical scope. This shift in approach made a significant impact."
+          "text": "And the results speak for themselves - 99% of organizations that have adopted agentic AI say it has improved operational efficiency and workforce productivity. When 99 out of 100 people agree on anything, you should probably pay attention."
         },
         {
-          "text": "✔️ Becoming a Trusted Advisor, Not Just a Consultant – By focusing on expectation management and adaptability, I became the go-to person for clients, someone they could rely on not just for fixing problems but for guiding them toward better data governance strategies."
+          "text": "<strong>The 10x Bank Is Not a Metaphor</strong>"
         },
         {
-          "text": "✔️ On-Site Training & Relationship Building – I traveled on-site to train customers, giving me direct exposure to their day-to-day challenges. Being present, engaging, and ensuring they truly understood the governance frameworks we were implementing built long-term professional relationships."
+          "text": "Accenture's banking leadership is already using the phrase \"10x bank\" - an institution where a single person leads a team of AI co-workers and delivers exponentially greater output. Growth is no longer constrained by headcount. It's constrained by your ability to reinvent how work actually gets done."
         },
         {
-          "text": "The result? Clients remembered me. They sought me out when something needed fixing not just because of my expertise, but because they trusted me as a reliable partner."
+          "text": "At one major bank, deploying agents alongside software engineers cut what would have required 250 developers over three years down to a fraction of that timeline. Agents wrote code, critiqued it, tested it, iterated on it. Senior engineers got to spend their time on oversight and the hard judgment calls. Honestly? That's the kind of story I've wanted to tell my whole career."
         },
         {
-          "text": "With a foundation in data governance and GRC, I transitioned into investment banking, where data management took on an even more critical role. "
+          "text": "<strong>What the Laggards Are Getting Wrong</strong>"
         },
         {
-          "text": "In the banking sector, the stakes are higher, and the need for accurate, secure data is paramount. I found that my consulting skills were put to the test in a new way. I had to navigate complex regulatory environments, ensure data integrity, and provide strategic insights that could shape the future of the bank."
+          "text": "Here's the uncomfortable truth. 99% of companies plan to put agents into production, but only 11% actually have. And it's not because the technology isn't ready. It's because their data isn't. Messy data, missing lineage, zero governance. Ungoverned data doesn't just create compliance risk - it turns autonomous agents into automated hallucination machines, and you'll watch your AI confidently make wrong decisions at scale."
         },
         {
-          "text": "But the core principles remained the same: understanding the client’s needs, building trust, and delivering solutions that went beyond technical fixes."
+          "text": "The institutions winning in 2026 treat their proprietary data as a strategic differentiator for AI, not a back-office concern. That reframe is the whole unlock."
         },
         {
-          "text": "My journey from technical expert to trusted consultant has been a transformative one. It’s taught me that the most valuable skills in this industry aren’t just technical they’re human. By focusing on building relationships, understanding client needs, and delivering solutions that truly make a difference, I’ve been able to elevate my consulting game and drive real impact in the world of data governance and banking."
-        },
-        {
-          "text": "Ready to take your consulting game to the next level? Reach out to me to learn how to build lasting relationships with your clients and become a trusted advisor in your field."
+          "text": "<em><strong>Alpha Data Capital take:</strong> If a client asks us to \"evaluate AI agents,\" the real question is always simpler - is your data architecture ready to support autonomous decision-making? We start there every single time. It's the honest answer, even when it's not the one people want to hear.</em>"
         }
       ]
     },
     {
-      "ImgLink": "/images/LTXStudio.jpg",
-      "date": "22 December, 2024",
+      "ImgLink": "/images/blog/eu-ai-act-enforcement.jpg",
+      "date": "5 April, 2026",
       "delay": "800",
-      "title": "Establish a Single Source of Truth (SSOT): Why Your Business Needs It Now",
+      "title": "⚖️ The EU AI Act Enforcement Clock Is Running. Here's What Data Leaders Must Do Before August.",
       "paragraphList": [
         {
-          "text": "In the modern business landscape, the ability to make informed decisions hinges on the quality and consistency of data. This document explores the critical need for establishing a Single Source of Truth (SSOT) within organizations to combat the prevalent issue of conflicting data and misaligned strategies. By consolidating data into a centralized repository, businesses can enhance decision-making, foster trust, and drive growth."
+          "text": "<em>Tags: Data Governance, Regulation · April 5, 2026 · 8 min read</em>"
         },
         {
-          "text": "The Problem: Conflicting Data, Conflicting Decisions"
+          "text": "This is not another \"prepare for AI regulation\" think piece. I'm tired of those too. The EU AI Act's GPAI model obligations have been in force since August 2025. High-risk AI system enforcement kicks in on August 2, 2026 - risk management systems, data governance documentation, automatic logging, transparency mechanisms, human oversight, accuracy testing. Hard deadline. Hard penalties. I don't know how to say this more plainly."
         },
         {
-          "text": "In today’s data-driven business world, decision-making is only as good as the data backing it. Yet, many organizations face a recurring issue: conflicting insights from multiple data sources. Teams pull reports from different tools or datasets, only to find themselves presenting inconsistent findings at key meetings. These discrepancies lead to confusion, misaligned strategies, and ultimately, missed opportunities."
+          "text": "Penalties range from €15 million under the EU AI Act to $10,000 to $1 million per violation under U.S. state laws. The checkbook is real."
         },
         {
-          "text": "Why does this happen? It’s often due to fragmented data environments where different departments are working from varied interpretations or incomplete data sets. The marketing team may be using one set of customer data, while the finance team refers to another, leading to wildly differing conclusions. When everyone is reading from different books, how can you expect cohesive results?"
+          "text": "<strong>The U.S. Patchwork Is Just as Complicated</strong>"
         },
         {
-          "text":"The Solution: Consolidate into a Single Source of Truth (SSOT)"
+          "text": "If you're only watching the EU, you're missing the bigger problem at home. Right now, twenty U.S. states have AI-specific laws either passed or in development, and laws touching data protection, cybersecurity, and AI have exploded 400% since 2016. California's AI Transparency Act, Texas's RAIGA, and Colorado's AI Act (effective June 30, 2026) layer overlapping requirements on top of each other. No federal framework is coming to save anyone."
         },
         {
-          "text":"The answer to this problem is a simple yet powerful concept: establishing a Single Source of Truth (SSOT) for your organization’s data. But how do you go about achieving this? The key lies in consolidating your data into a centralized data warehouse."
+          "text": "Overlapping state laws, EU enforcement, federal ambiguity, rapidly shifting standards - this isn't a temporary mess. It's the new normal. The sooner leadership accepts that, the less painful the transition gets."
         },
         {
-          "text":"A centralized data warehouse acts as a unified repository for your business’s key metrics and datasets. By pulling data from various sources, validating it, and storing it in one location, you ensure that everyone from sales to HR to operations is working from the same well-defined, accurate, and up-to-date information. The result? No more discrepancies, conflicting insights, or time wasted cross-referencing different reports."
+          "text": "<strong>Article 10 Is Your Data Quality Mandate</strong>"
         },
         {
-          "text":"Here’s how establishing an SSOT transforms your organization:"
+          "text": "Article 10 requires training data to be \"relevant, representative, free of errors, and complete,\" with explicit examination for bias. I need you to understand what that actually means - this is not a documentation exercise. It requires real data lineage infrastructure, schema validation, bias detection tooling, and audit trails you can produce on demand. Organizations that built these foundations in 2024 and 2025 are in compliance today. Everyone else is six to nine months behind the August deadline, and that math doesn't work in your favor."
         },
         {
-          "text":" - Consistency Across Reports: When all teams pull data from the same source, you eliminate contradictory figures in business intelligence (BI) reports. Consistent data means consistent decision-making. "
+          "text": "<strong>The Sequencing That Actually Works</strong>"
         },
         {
-          "text":" - Trust in the Numbers: Establishing a centralized data warehouse means teams can rely on their reports, confident that they are backed by validated, high-quality data. This trust in the numbers fosters a culture of data-driven decision-making."
+          "text": "If you're behind, don't panic. But sequence matters. Start with data lineage infrastructure - it's the foundational layer everything else rests on. Then implement audit logging early, because retrofitting that later is significantly more painful and expensive. Once you can actually see your data flows, integrate model documentation into your CI/CD pipelines. And please, design for data residency requirements now, not later. I've seen teams rebuild entire architectures because nobody thought about this upfront."
         },
         {
-          "text":" - Improved Efficiency: No more wasting time trying to reconcile conflicting reports. Teams can focus on analyzing and acting on the data rather than debating its accuracy."
-        },
-        {
-          "text":"The SSOT Implementation: How to Make It Happen"
-        },
-        {
-          "text":"Transitioning to an SSOT might seem like a daunting task, but modern tools make it easier than ever. The process starts with implementing Extract, Transform, Load (ETL) pipelines to automate and standardize the extraction of data from your various sources and load it into your SSOT. Transitioning to an SSOT might seem like a daunting task, but modern tools make it easier than ever. The process starts with implementing Extract, Transform, Load (ETL) pipelines to automate and standardize the extraction of data from your various sources and load it into your SSOT."
-        },
-        {
-          "text":"ETL tools automate the data extraction, allowing you to pull data from a variety of sources whether it’s customer interactions, financial metrics, or web analytics. The data is then transformed, ensuring it adheres to the same format and definitions, removing any inconsistencies. Finally, the data is loaded into the central data warehouse, providing the entire organization with real-time access to clean, validated data."
-        },
-        {
-          "text":"Key Steps to Build a Reliable SSOT:"
-        },
-        {
-          "text":"1. Identify Your Data Sources: List all the key data sources in your organization (CRM systems, finance systems, marketing platforms) that will feed into your SSOT."
-        },
-        {
-          "text":"2. Define Key Metrics and Data Sets: Work with your teams to define and agree on standard metrics and definitions. This step is crucial to avoid differing interpretations of the same data."
-        },
-        {
-          "text":"3. Implement ETL Pipelines: Choose the right tools to automate and standardize the extraction, transformation, and loading process. This ensures that your data is always clean, consistent, and up-to-date."
-        },
-        {
-          "text":"4. Centralize in a Data Warehouse: Consolidate your validated data into a centralized warehouse. Consider using scalable solutions like AWS Redshift, Google BigQuery, or Azure SQL to house your SSOT. "
-        },
-        {
-          "text":"5. Govern and Monitor: Establish governance rules to ensure ongoing data quality. Monitor your pipelines and warehouse to ensure they’re always functioning smoothly, catching any potential issues before they escalate. "
-        },
-        {
-          "text":"Why It Matters: Better Business, Smarter Decisions Why It Matters: Better Business, Smarter Decisions"
-        },
-        {
-          "text":"At its core, a Single Source of Truth empowers your business to make smarter, faster decisions. When you remove the confusion of conflicting data and provide your teams with clear, validated insights, they can focus on what really matters: driving business growth."
-        },
-        {
-          "text":"Ready to transform your organization with a Single Source of Truth? Reach out to me to learn how to establish an SSOT that will revolutionize your data analytics and decision-making processes."
+          "text": "<em><strong>Alpha Data Capital take:</strong> Governance maturity is becoming a revenue qualification. For SMBs trying to close enterprise deals, a mature AI governance posture is increasingly a revenue requirement, not a legal one. We build this into every engagement scope from day one because we've watched too many deals die over a missing audit log.</em>"
         }
       ]
     },
     {
-      "ImgLink": "/images/startup.jpg",
-      "date": "15 November, 2024",
+      "ImgLink": "/images/blog/quiet-death-static-dashboard.jpg",
+      "date": "4 April, 2026",
       "delay": "900",
-      "title": "Crack the Code: The 80% Efficiency Challenge for Data-Driven Leaders",
+      "title": "📊 The Quiet Death of the Static Dashboard - And What Replaces It",
       "paragraphList": [
         {
-          "text": "Imagine if, in the next three minutes, you could identify the hidden inefficiencies holding your business back. It doesn’t require an overhaul or complex changes – just the right data and a few strategic moves. Ready to take on the 80% Efficiency Challenge?"
+          "text": "<em>Tags: Decision Intelligence, Analytics Trends · April 4, 2026 · 6 min read</em>"
         },
         {
-          "text": "Let's Play a Game:"
+          "text": "I love dashboards. I built my career on them. So please hear me out when I say this - the dashboard, as we knew it, is dying. And it's not sad. It's overdue."
         },
         {
-          "text": "Your objective? Detect and address the inefficiencies that, once fixed, can improve your business's performance by 80%."
+          "text": "Think about what a dashboard actually is - a periodic snapshot of historical data, formatted for human review, requiring a trained analyst to interpret and translate into action. In 2019, that was state of the art. In 2026, it's a bottleneck. Business leaders don't want to wait for the Monday morning report anymore. They want real-time answers, natural-language interaction with data, and proactive intelligence that flags risks before they become problems."
         },
         {
-          "text": "Level 1: Identify the Bottleneck"
+          "text": "<strong>The Copilot Layer Is Replacing the BI Layer</strong>"
         },
         {
-          "text": "Scenario: Your team is bogged down with repetitive tasks. Projects are moving slower, and team morale is dipping. Where’s the roadblock?"
+          "text": "Autonomous analytics copilots - systems that take a natural language question and return charts, forecasts, narratives, and recommendations without anyone touching SQL - are the fastest-growing segment of the analytics market. What's different now is that these systems understand business semantics, governance rules, and organizational data models. They don't just run queries. They explain results and hold actual follow-up conversations."
         },
         {
-          "text":"Mission: Observe your current workflows. Are repetitive tasks clogging up progress? Is time being wasted on manual, redundant steps? Find the bottleneck and consider automating those tasks."
+          "text": "SR Analytics found that in 2026, 80% of employees will consume insights directly inside the business applications they already use. Not from a separate BI platform. From wherever they already do their work. That's a massive shift, and honestly, it's how it should have been all along."
         },
         {
-          "text":"💡 Pro Tip: Implement AI and RPA tools to cut down on repetitive work, allowing your team to focus on high-impact areas like innovation and strategy."
+          "text": "<strong>Data Mesh Is the Architecture Underneath</strong>"
         },
         {
-          "text":"Level 2: Turn Data Overload into Actionable Insights"
-        }
-        ,
+          "text": "The centralized data warehouse model, where a single platform team owns everything, is giving way to data mesh. Domain teams own and serve their data as products. Each domain treats their data with real SLAs, real documentation, real quality guarantees. Other teams consume it through proper interfaces, not ad-hoc requests to an overworked data team at the end of a Slack thread."
+        },
         {
-          "text":"Scenario: You have data everywhere, but it’s overwhelming and lacks direction. Decision-making is swayed by emotions rather than clear insights."
-        }
-        ,
+          "text": "<strong>What Analytics Leaders Should Be Building Now</strong>"
+        },
         {
-          "text":"Mission: Pinpoint specific, operational numbers that matter. Focus on metrics that drive growth and cut out the noise. Where are the hidden opportunities in the data you already have?"
-        }
-        ,
+          "text": "If I could sit every analytics leader down for ten minutes, this is what I'd tell them. The functions that will matter in the next few years are doing three things - building semantic data layers that AI copilots can reason against, embedding insights directly into the workflows where decisions actually happen, and investing in data observability so autonomous systems can be trusted. That's the work. Everything else is noise."
+        },
         {
-          "text":"💡 Pro Tip: A focused, data-driven approach reduces decision-making time and enhances effectiveness. Start small with key metrics that directly impact your goals."
-        }
-        ,
+          "text": "AutoML platforms now let business analysts who understand their domain build churn models, demand forecasts, and risk assessments themselves. That's a gift to analytics leaders who want to move faster, if they can get out of the way."
+        },
         {
-          "text":"Level 3: Scaling Strategy - Smooth or Stuck?"
-        }
-        ,
-        {
-          "text":"Scenario: Growth is on the horizon, but your current systems are struggling to keep up. Teams are lagging, and processes are breaking under pressure."
-        }
-        ,
-        {
-          "text":"Mission: Assess your existing infrastructure. Is it built to scale, or are you relying on temporary fixes? Think long-term and invest in systems that grow with you."
-        }
-        ,
-        {
-          "text":"💡 Pro Tip: Companies that invest in scalable infrastructure early experience a 50% boost in efficiency as they grow."
-        }
-        ,
-        {
-          "text":"Bonus Level: Empower Your Team for Success"
-        }
-        ,
-        {
-          "text":"Scenario: You’ve identified inefficiencies, but the team is hesitant to adapt. New systems feel overwhelming."
-        }
-        ,
-        {
-          "text":"Mission: Equip your team with the tools and training they need. Visualize how the new processes will benefit them and make data actionable."
-        }
-        ,
-        {
-          "text":"💡 Pro Tip: Teams with access to real-time data insights and proper training experience a 70% improvement in performance."
-        }
-        ,
-        {
-          "text":"Challenge Complete? Not Quite."
-        }
-        ,
-        {
-          "text":"Imagine the results if you tackled just one bottleneck today. How much more efficient could your business become?"
-        }
-        ,
-        {
-          "text":"Final Level: Take Action Today"
-        }
-        ,
-        {
-          "text":"- Can you identify a bottleneck in your current operations?"
-        }
-        ,
-        {
-          "text":"- Are you using your data to its full potential?"
-        }
-        ,
-        {
-          "text":"- Is your business ready to scale effectively?"
-        }
-        ,
-        {
-          "text":"The answer to these questions could redefine your business’s future. Ready to level up? Fill out the form below and discover how analytics, data engineering, and targeted strategies can transform your business."
+          "text": "<em><strong>Alpha Data Capital take:</strong> Our best analytics engagements today look nothing like a BI project. They're semantic layer design, AI readiness assessments, and embedding intelligence into business workflows. If your team's primary output is still a Tableau workbook, it's time for an honest conversation about what you're actually building toward. I've had that conversation with clients and it's hard. But it's fair.</em>"
         }
       ]
     },
     {
-      "ImgLink": "/images/IMG20240125145634.jpg",
-      "date": "01 Feb, 2024",
+      "ImgLink": "/images/consulting.png",
+      "date": "3 April, 2026",
       "delay": "1000",
-      "title": "Navigating the Future of AI: Insights from the Microsoft AI Tour 2024 in New York",
+      "title": "🏛️ Data Governance Is Not a Compliance Problem. It's Your Revenue Model.",
       "paragraphList": [
         {
-          "text": "As the tech world continues to evolve at a breakneck pace, I had the unique opportunity to attend the Microsoft AI Tour 2024 at the Jacob Javits Center in New York City. This event, set against the backdrop of Microsoft’s recent announcement about laying off 1,900 workers in its gaming division, served as a poignant reminder of the transformative power of AI in the modern workplace."
+          "text": "<em>Tags: Data Governance, Enterprise Strategy · April 3, 2026 · 7 min read</em>"
         },
         {
-          "text": "The tour kicked off with insights from Corey Sanders, Corporate Vice President for Microsoft Solutions, and Mark Russinovich, CTO of Microsoft Azure. Their presentations illuminated the cutting-edge advancements in AI, particularly the new Microsoft Copilot capabilities, which are redefining the landscape for both established enterprises and startups. This tool, capable of updating a website without programming expertise, signifies a leap in accessibility and efficiency."
+          "text": "If I could go back and change one thing about how our industry thinks about data governance, it would be this - most organizations inherited their governance framing from the GDPR era. Governance was expensive, reactive, and fundamentally about avoiding fines. It made everyone hate it. And I understand why."
         },
         {
-          "text": "One of the most compelling sessions I attended delved into Vector Search and state-of-the-art retrieval for Generative AI apps. The growing buzz around vector databases was palpable, reflecting their increasing relevance in the AI domain. Another session, perhaps more technical yet equally fascinating, focused on Nvidia’s latest tools for developing and deploying generative AI. This session, although somewhat complex, underscored the rapid advancements in AI hardware and software integration."
+          "text": "But the AI economy has flipped this entirely. Governed data is the raw material for every AI capability that generates real competitive advantage. Ungoverned data isn't just a compliance risk anymore - it's a hard ceiling on your AI roadmap, and that ceiling keeps getting lower the longer you wait."
         },
         {
-          "text": "The event wasn’t just about listening and learning; it was a hands-on experience. The breakout sessions, particularly the one on building your own Copilots with Microsoft Copilot Studio, were enlightening. They demonstrated that while tools like Copilot can significantly streamline processes, they don’t negate the need for foundational knowledge in fields like business intelligence, data engineering, and data analytics."
+          "text": "The leaders who win in 2026 will be the ones who understand that data's value comes from how well it can be understood and acted on, not how much of it you have. Your data has to function like a living, semantic, governed memory system that AI can learn from and reason with. You cannot scale AI until you re-architect the data underneath it. I've watched companies try to skip this step, and it always ends the same way."
         },
         {
-          "text": "Amidst the technical sessions, the tour provided spaces for reflection and connection. The inclusion of a prayer/meditation area was a thoughtful touch, recognizing the importance of mental well-being in high-intensity environments. Equally impressive was the Connection Hub, an open exhibition space fostering discussions among attendees about their challenges and aspirations in the realm of AI."
+          "text": "<strong>GenAI-Enhanced Governance Is Compressing the Build Timeline</strong>"
         },
         {
-          "text": "The tour culminated with a Fireside Chat featuring Satya Nadella and Merrie Williamson, Corporate Vice President of Azure in Sales. Nadella’s vision for Copilot as a tool to revolutionize how we interact with applications like Excel, Word, and Python was inspiring. He emphasized Copilot’s role in democratizing AI, making it an accessible tool for innovation across various industries."
+          "text": "Here's the good news. The 18-month governance buildout is getting dramatically compressed. GenAI-enhanced governance tools can automatically classify datasets, infer metadata, enrich lineage, and detect quality issues at scale. Work that used to take weeks now takes hours. That's not marketing spin - I've seen it firsthand with teams I work with."
         },
         {
-          "text": "In conclusion, the Microsoft AI Tour 2024 was more than just an event; it was a microcosm of the current state and future potential of AI in the business world. It offered a unique blend of technical insights, hands-on experience, and visionary perspectives, all while fostering a sense of community among professionals navigating the ever-evolving landscape of AI.          "
+          "text": "IDC says global spending on big data and analytics will hit $420 billion in 2026. Gartner predicts that by 2027, 60% of repetitive data management tasks will be automated. Governance itself is being AI-augmented, which is honestly a little poetic."
+        },
+        {
+          "text": "<strong>The Organizational Design Problem</strong>"
+        },
+        {
+          "text": "The technical architecture is the easy half. The hard half is people. Centers of excellence that actually develop and share best practices. Clear escalation paths connecting distributed teams to central governance councils for the decisions that need cross-functional input. Balance between efficiency and control. I've seen beautiful technical setups fail because the org chart wasn't right. Don't let that be you."
+        },
+        {
+          "text": "Organizations that bake governance into their AI culture - instead of treating it as an external constraint imposed from above - innovate faster and manage risk better. It's not a paradox. It's just what happens when people stop fighting the rules and start owning them."
+        },
+        {
+          "text": "<strong>The Revenue Model Hidden Inside Your Cost Center</strong>"
+        },
+        {
+          "text": "Here's the insight I keep trying to get executives to hear. Governed data enables experimentation with AI that ungoverned data prohibits. That's the revenue model your company is probably still treating as overhead. When domain teams own their data as a product, with real SLAs and quality guarantees, governance stops being a tax on their time and starts being the foundation of their AI roadmap. The same activity, reframed, goes from cost center to profit center."
+        },
+        {
+          "text": "<em><strong>Alpha Data Capital take:</strong> In every financial services engagement we run, the first governance deliverable we push for isn't a policy document. It's a data product inventory with SLAs and ownership. Once domain teams own their data as a product, governance stops being a tax and becomes an investment. That reframe changes everything, and I've watched it happen.</em>"
         }
-
+      ]
+    },
+    {
+      "ImgLink": "/images/blog/ai-factory-model.jpg",
+      "date": "2 April, 2026",
+      "delay": "1100",
+      "title": "🏭 The AI Factory Model: Why Point Solutions Are Costing You Twice",
+      "paragraphList": [
+        {
+          "text": "<em>Tags: AI Strategy, Enterprise · April 2, 2026 · 6 min read</em>"
+        },
+        {
+          "text": "Procter & Gamble calls it an AI Factory. Intuit calls it GenOS. The names vary, but the idea is the same and it's the right one. Both companies treat every form of AI - analytical, generative, agentic - as capabilities running on a shared internal foundation. Companies without that foundation force every data scientist and AI team to reinvent the wheel. New tools, new data discovery, new methodology, every single time. It's expensive, slow, and it burns out your best people. I've seen it happen more times than I want to count."
+        },
+        {
+          "text": "<strong>What an AI Factory Actually Contains</strong>"
+        },
+        {
+          "text": "A real AI factory has a centralized platform for deployment and oversight, drawing on a shared library of agents, templates, and tools. Before anything goes live, agents get tested, flaws get fixed, working demos get created so the next team can learn from the last one. Rollouts happen as part of redesigned workflows, with clear steps for human initiative, review, and oversight. And there's built-in monitoring where different agents actually check each other's work. It's systems thinking, not heroics."
+        },
+        {
+          "text": "PwC calls the organizational hub driving this an \"AI Studio\" - the place where business goals get linked to AI capabilities through a real process for evaluating use cases, sizing ROI, and deciding what to fund."
+        },
+        {
+          "text": "<strong>The 80/20 Rule of AI Value Creation</strong>"
+        },
+        {
+          "text": "This one always hits executives hard when I share it. Technology delivers only about 20% of an AI initiative's value. The other 80% comes from redesigning the work itself - so agents handle the routine stuff and people focus on what actually matters. The factory creates the infrastructure for the 20%. Organizational redesign unlocks the 80%. And most enterprises are pouring money into the first and barely touching the second. It's painful to watch."
+        },
+        {
+          "text": "<strong>Organizational AI vs. Individual AI</strong>"
+        },
+        {
+          "text": "If 2025 was the year we realized generative AI had a value-realization problem, 2026 is the year we're finally doing something about it. Individual AI usage - employees using tools for personal productivity - has been widespread since 2023. Organizational AI is a fundamentally different beast. Models trained on proprietary data. Integrated into core processes. Governed centrally. Continuously improved from operational feedback. That's the work that actually moves the needle."
+        },
+        {
+          "text": "Companies should start thinking about how agents enable new ways of working, building trusted agents that can be reused across the organization, and even piloting interorganizational agents with cooperative suppliers or customers. It sounds ambitious, and it is. But someone's going to do it first, and the advantage compounds fast."
+        },
+        {
+          "text": "<em><strong>Alpha Data Capital take:</strong> For mid-market financial services clients, standing up a full AI factory isn't realistic and I tell them that honestly. But the principles are. We help them build a minimum viable shared foundation - a governed data layer, a curated model policy, a standard deployment template, and an AI use case intake process. That's the 20% that unlocks the 80%. It's not sexy, but it works.</em>"
+        }
       ]
     }
   ],
@@ -493,25 +526,25 @@
           "imgLink": "/images/avatar-1.jpg",
           "name": "Ema Watson",
           "designation": "Chief Executive Officer, Brazil",
-          "text": "File storage made easy – including powerful features you won’t find anywhere else. Whether          you’re."
+          "text": "File storage made easy - including powerful features you won’t find anywhere else. Whether          you’re."
         },
         {
           "imgLink": "/images/avatar-2.jpg",
           "name": "Ema Watson",
           "designation": "Chief Executive Officer, Brazil",
-          "text": "File storage made easy – including powerful features you won’t find anywhere else. Whether          you’re."
+          "text": "File storage made easy - including powerful features you won’t find anywhere else. Whether          you’re."
         },
         {
           "imgLink": "/images/avatar-1.jpg",
           "name": "Ema Watson",
           "designation": "Chief Executive Officer, Brazil",
-          "text": "File storage made easy – including powerful features you won’t find anywhere else. Whether          you’re."
+          "text": "File storage made easy - including powerful features you won’t find anywhere else. Whether          you’re."
         },
         {
           "imgLink": "/images/avatar-2.jpg",
           "name": "Ema Watson",
           "designation": "Chief Executive Officer, Brazil",
-          "text": "File storage made easy – including powerful features you won’t find anywhere else. Whether          you’re."
+          "text": "File storage made easy - including powerful features you won’t find anywhere else. Whether          you’re."
         }
       ]
     },
@@ -570,11 +603,11 @@
         "title": "Chat with me",
         "text": "Connect On LinkedIn"
       },
- 
       {
-        "icon": "phone",
-        "title": "Call Me",
-        "text": "Mon-Fri from 9am to 5pm. +1 (516) 229 1291"
+        "icon": "envelope",
+        "title": "Email Me",
+        "emailLink": "umair@aitobianalytics.com",
+        "text": ""
       }
     ],
     "contactForm": {
@@ -587,10 +620,6 @@
     "name": "Umair Tareen"
   },
   "socialData": [
-    {
-      "icon": "instagram",
-      "link": "https://www.instagram.com/tareen_ua/"
-    },
     {
       "icon": "twitter",
       "link": "https://x.com/UAT_34"

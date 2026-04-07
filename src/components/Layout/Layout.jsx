@@ -1,9 +1,9 @@
-import { Outlet } from "react-router-dom";
-import Header from "../Header/Header";
+import { Outlet } from 'react-router-dom';
+import Header from '../Header/Header';
 import { headerData } from '../../data.json';
-import { useState, useEffect } from "react";
-import Preloader from "../Preloader/Preloader";
-import CustomCursor from "../CustomCursor/CustomCursor";
+import { useState, useEffect } from 'react';
+import Preloader from '../Preloader/Preloader';
+import CustomCursor from '../CustomCursor/CustomCursor';
 
 const Layout = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -16,7 +16,9 @@ const Layout = () => {
 
   return (
     <>
-      {isLoading ? <Preloader /> : (
+      {isLoading ? (
+        <Preloader />
+      ) : (
         <>
           <CustomCursor />
           <Header data={headerData} />
@@ -24,7 +26,7 @@ const Layout = () => {
         </>
       )}
     </>
-  )
-}
+  );
+};
 
 export default Layout;
