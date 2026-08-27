@@ -21,7 +21,7 @@ const Newsletter = () => {
                                 style={{ maxWidth: '600px', margin: '0 auto' }}
                                 data-aos="fade-up" data-aos-duration="800" data-aos-delay="300"
                             >
-                                Free Weekly AI to BI Analytics Newsletter. Join 23k Analytics professionals, like-minded individuals and entrepreneurs. 
+                                Field notes on shipping AI inside regulated environments. Sent when there is something worth sending, not on a schedule. 
                                 Lightweight, easy-read - directly to your inbox every week. 
                                </p>
                         </div>

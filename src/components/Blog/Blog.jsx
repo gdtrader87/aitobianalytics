@@ -21,7 +21,7 @@ const Blog = ({ data }) => {
     <section id="blog">
       <div className="py-20 bg-dark">
         <div className="container mx-auto px-4">
-          <SectionHeading title="INNOVATION CORNER" subTitle="Latest Thought Leadership" />
+          <SectionHeading title="Field notes" subTitle="Deployment failure modes in regulated settings" />
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {data.map((element, index) => (
               <BlurFade

@@ -13,7 +13,7 @@ const About = ({ data }) => {
   return (
     <section id="about" className="py-20">
       <div className="container mx-auto px-4">
-        <SectionHeading title="WELCOME TO..." subTitle="Nice to meet you!" />
+        <SectionHeading title="What a forward deployed engineer does" subTitle="About" />
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 mt-10">
           {/* Left Column - Avatar + Name */}
           <div className="lg:col-span-5">

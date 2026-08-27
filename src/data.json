@@ -4,16 +4,16 @@
     "logoLight": "/images/logo-light.svg"
   },
   "heroData": {
-    "title": "My name<br />is <b>Umair</b> <span><br />Tareen...</span>",
-    "subTitle1": "<span>VP of Data, Analytics & AI</span>",
-    "subTitle2": "<span>AI Solutions Architect</span>",
-    "subTitle3": "<span>Agentic AI Enterprise Leader</span>",
-    "subTitle4": "<span>Analytics & BI Leader</span>",
-    "location": "based in <span>USA</span>",
+    "title": "I ship AI into <b>banks</b> and <span>regulated firms.</span>",
+    "subTitle1": "<span>Forward Deployed Engineer</span>",
+    "subTitle2": "<span>Inside change control, with an audit trail</span>",
+    "subTitle3": "<span>12 years in enterprise data</span>",
+    "subTitle4": "<span>A decade across banks</span>",
+    "location": "Umair Tareen · based in <span>New York, USA</span> · onsite, embedded, or remote",
     "ImgLink": "/images/home-banner.png",
     "phone": "",
     "email": "umair@aitobianalytics.com",
-    "btnText": "Work with me",
+    "btnText": "Book a scoping call",
     "socialData": [
       {
         "link": "https://www.linkedin.com/in/umairtareen",
@@ -29,11 +29,11 @@
     "aboutLeft": {
       "ImgLink": "/images/about-banner.png",
       "name": "Umair Tareen",
-      "designation": "VP of Data, Analytics & AI | Enterprise Data Architect | Agentic AI Enterprise Leader <span>based in</span> USA",
+      "designation": "Forward Deployed Engineer | Regulated data and AI | <span>based in</span> New York, USA",
       "resumeCv": ""
     },
     "aboutRight": {
-      "aboutText": "I am a VP of Data, Analytics & AI with 14+ years of experience architecting enterprise-scale data platforms and transforming raw data into competitive advantage. Currently leading the data vision at Alpha Data Capital, I specialize in Enterprise Data Architecture, Agentic AI frameworks, and building self-governing AI systems that drive autonomous decision-making across financial and enterprise environments. My career spans leading data organizations at Nomura, Adobe, and MUFG, where I directed cross-functional teams in delivering large-scale BI, data engineering, and AI initiatives. I bridge the gap between executive strategy and technical execution - designing cloud-native architectures, implementing Agentic AI pipelines, and establishing governance frameworks that turn messy data into decisions that matter.",
+      "aboutText": "A forward deployed engineer is the person sent into the customer's building to turn a product into a working, defensible outcome: install it in their environment, configure it to their process, build the reporting their people will actually use, train the team, and stay accountable after go-live. I was doing that job before it had the title. At Nasdaq BWise I implemented a governance, risk and compliance platform onsite for banks, insurers and corporates. Every client meant adapting not just to their data but to their business: learning how that company saw its own risks before touching a control library, managing expectations in the room and after I had rolled off, and delivering under real pressure on a justifiable, timely basis rather than stamping a deliverable and leaving. I was the business intelligence lead by title, but I looked at what the customer was getting from the whole platform they had bought, and went beyond my slice of it, because the measure of the work was whether they asked to work with me again. Then six years inside one bank, MUFG, and later Citi: twelve years in enterprise data, a decade of it across banks, building platforms that lived under audit. Touring many companies teaches you patterns; staying in one industry teaches you why the pattern does not apply here. Today the product is AI: agents, retrieval, governed pipelines. The job is the same. Decompose the vague brief, ship inside your change control, leave an audit trail your examiner can read, and own it after it is live.",
       "contactInfo": [
         {
           "icon": "phone",
@@ -54,9 +54,9 @@
       ],
       "archivement": [
         {
-          "number": "14+",
-          "meta": "Years <br /> experience...",
-          "text": "These collaborations have allowed me to refine my skills in <span>data visualization</span>, <span> predictive modeling</span>, and <span> strategic decision-making</span>, ensuring data-driven success in a variety of market conditions.",
+          "number": "12",
+          "meta": "Years in <br /> enterprise data",
+          "text": "Platforms on <span>Snowflake</span>, <span>Databricks</span>, <span>Azure</span> and <span>AWS</span>, built for teams whose outputs go to regulators, auditors and clients.",
           "logos": [
             "/images/skills-sap-business-objects.png",
             "/images/skills-Tableau_Logo.png",
@@ -71,9 +71,9 @@
           ]
         },
         {
-          "number": "12+",
-          "meta": "Clients <br /> Worldwide...",
-          "text": " With over a decade of experience in business analytics and data architecture. Below are some of the esteemed clients I've had the pleasure to work with, contributing my expertise in areas such as <span>data analytics</span>, <span>machine learning</span>, and <span>business intelligence</span>:",
+          "number": "10",
+          "meta": "Years <br /> across banks",
+          "text": "Six years at <span>MUFG</span>, then <span>Citi</span>, plus Nomura and the GRC vendor side at <span>Nasdaq BWise</span>. Logos below are employers and client organisations I delivered for.",
           "logos": [
             "/images/client-adobe-1-logo-png-transparent.png",
             "/images/client-nasdaq-transparent.png",
@@ -91,7 +91,7 @@
     }
   },
   "experienceData": {
-    "text": "My academic foundation combines Computer Science with financial analytics. I hold a Bachelor of Science in Computer Science from the New York Institute of Technology (Phi Eta Sigma National Honor) and a Master of Business Administration with a Chartered Financial Analyst concentration from Quinnipiac University (Magna Cum Laude). This dual expertise in technology and finance has been the engine behind 14+ years of data leadership across capital markets, enterprise tech, and AI.",
+    "text": "Computer Science from the New York Institute of Technology (Phi Eta Sigma National Honor) and an MBA with a Chartered Financial Analyst concentration from Quinnipiac University (Magna Cum Laude). Currently completing a Master of Science in Artificial Intelligence and the Anthropic Claude certification. The technical half builds the system; the finance half is why I can sit with a CFO, a risk officer or an examiner and speak their language about what the system does.",
     "resumeCv": "",
     "experience": [
       {
@@ -103,6 +103,16 @@
         "degree": "Master of Business Administration, Chartered Financial Analyst Concentration",
         "institute": "Quinnipiac University",
         "award": "Magna Cum Laude"
+      },
+      {
+        "degree": "Master of Science, Artificial Intelligence",
+        "institute": "In progress",
+        "award": ""
+      },
+      {
+        "degree": "Anthropic Claude certification",
+        "institute": "In progress",
+        "award": ""
       }
     ],
     "careerTimeline": [
@@ -146,35 +156,139 @@
   },
   "serviceData": [
     {
-      "title": "AI Solutions Architecture",
-      "heading": "AI Solutions Architect",
+      "title": "Discovery: turn the vague brief into workstreams",
+      "heading": "Week 0 to 1",
       "triger": "One",
       "imgLink": "/images/services-1.jpg",
-      "text": "I design end-to-end AI solutions that bridge cutting-edge machine learning with enterprise-grade infrastructure. From architecting cloud-native data lakehouses on Snowflake, Databricks, and Azure Synapse to deploying production ML pipelines and LLM-powered applications, I build AI systems that are scalable, governed, and aligned to business outcomes. My solutions span predictive modeling, NLP, computer vision, and retrieval-augmented generation (RAG) - turning complex AI capabilities into reliable, measurable tools that drive real competitive advantage."
+      "text": "Every engagement starts with a room: the sponsor, the people who run the process today, and whoever has to sign off. I leave with a written scope: the system of record, the constraint (change control, data residency, a regulator, a legacy platform), success criteria in numbers, and a decomposition into workstreams you can staff and track. That document is the contract for everything after it."
     },
     {
-      "title": "Agentic AI & Intelligent Automation",
-      "heading": "Agentic AI Enterprise Leader",
+      "title": "Build inside your environment, not next to it",
+      "heading": "Weeks 1 to N",
       "triger": "Two",
       "imgLink": "/images/services-2.jpg",
-      "text": "I lead the design and deployment of Agentic AI frameworks - autonomous, multi-agent systems that reason, plan, and act across complex enterprise workflows without constant human intervention. Leveraging LLM orchestration, tool-use patterns, and retrieval-augmented generation (RAG), I build AI agents that automate decision pipelines in finance, analytics, and operations. My work bridges the gap between cutting-edge AI research and real-world enterprise execution, delivering self-governing systems that reduce latency, cut costs, and surface insights at machine speed."
+      "text": "The code runs on your infrastructure, under your identity provider, through your release process. Python and TypeScript, MCP connectors into core systems with authentication, data mapping, error handling and audit requirements built in, retrieval over your own documents, agents where an agent is the right tool and plain pipelines where it is not. Small releases, days rather than quarters."
     },
     {
-      "title": "Data & AI Strategy Leadership",
-      "heading": "VP of Data, Analytics & AI",
+      "title": "Production with an audit trail",
+      "heading": "Go-live",
       "triger": "Three",
       "imgLink": "/images/services-3.jpg",
-      "text": "As a VP-level data leader, I translate organizational goals into data and AI roadmaps that deliver measurable competitive advantage. I build and scale data organizations - hiring and mentoring teams, establishing data governance councils, and aligning cross-functional stakeholders from the C-suite to engineering. With experience leading data transformations at global institutions including Nomura, Adobe, and MUFG, I bring a proven track record of driving strategic initiatives that reduce risk, accelerate time-to-insight, and position data as a core business asset."
+      "text": "Before anything touches a real workflow: output validation, evaluation sets, lineage, logging, model-risk controls a second-line reviewer can read. If an examiner asks what the system did on a given day, the answer is a record, not a memory. This is the habit I brought from six years at MUFG and it is the part most AI deployments skip."
     },
     {
-      "title": "Business Intelligence & Analytics",
-      "heading": "Analytics & BI Leader",
+      "title": "Handover and ownership after go-live",
+      "heading": "After launch",
       "triger": "Four",
       "imgLink": "/images/services-4.jpg",
-      "text": "I deliver executive-grade business intelligence programs that go beyond dashboards - embedding analytics into decision workflows at every level of the organization. With deep expertise in Tableau, Power BI, SAP Analytics Cloud, and modern semantic modeling, I build self-service BI ecosystems where business users find answers independently and leadership has real-time visibility into what matters. My BI solutions are grounded in clean data architecture and governed metrics layers, ensuring that every insight produced is trustworthy, consistent, and actionable."
+      "text": "You keep what I build: repos, runbooks, evaluation harnesses, the trained team. I stay on the hook for the outcome, not the demo: monitoring, tuning, the year-two story. Engagement shapes: embedded contract, fixed-scope build, or a forward deployed role inside your organisation. Onsite, embedded or remote, in the US and with clients abroad."
     }
   ],
   "portfolioData": [
+    {
+      "ImgLink": "/images/consulting.png",
+      "subTitle": "Nasdaq BWise · governance, risk and compliance · forward deployed",
+      "title": "GRC platform implementations, onsite, for regulated clients",
+      "link": "",
+      "paragraphList": [
+        {
+          "text": "<strong>Situation</strong><br/>Nasdaq BWise sold a governance, risk and compliance platform (risk management, regulatory compliance, internal controls, internal audit, information security) to banks, insurers and corporates. Selling it was the easy half. Each client needed it installed in their environment, configured to their own control framework and risk taxonomy, reporting built for their board and their regulator, and a team trained to run it without us."
+        },
+        {
+          "text": "<strong>Constraint</strong><br/>Client environments, client change control, client auditors. A risk taxonomy is an argument about how a company sees itself, and three functions rarely agree on it. Every configuration decision had to be defensible to a second-line risk function, and every report had to answer a real question rather than look clean."
+        },
+        {
+          "text": "<strong>What shipped</strong><br/>Onsite installation and configuration; the control library and risk hierarchy loaded and versioned; dashboards and management reporting for boards, risk committees and regulators; data migration from spreadsheet registers; user and administrator training; hypercare with exit criteria; and the pre-sales scoping that turned one implementation into the next."
+        },
+        {
+          "text": "<strong>Time to production</strong><br/>Phased: a working screen against the client's own data early, then configuration, migration and reporting in increments the steering committee could see every week. What you discover onsite is different from what was sold, so discovery was re-run in the building even when a signed scope already existed."
+        },
+        {
+          "text": "<strong>Outcome</strong><br/>Clients who asked to work with me again. That was the metric I ran on. A platform their own people operated after I rolled off, reporting that assembled itself instead of being rebuilt by hand each cycle, and a shared risk language across functions that had not had one."
+        },
+        {
+          "text": "<strong>What broke, and the fix</strong><br/>The recurring failure in GRC work is not technical: evidence that never arrives from control owners, approvals stuck with Legal, remediation nobody tracks until the auditor asks. My counter-move was to look past my own reporting scope, design the workflow around the control owner's actual week, price every new request in time and money at the moment it was made, and measure adoption as a go-live criterion. Bedside manner is technique: ask what they think the answer is, and when you overrule it, explain why in their language."
+        }
+      ]
+    },
+    {
+      "ImgLink": "/images/services-3.jpg",
+      "subTitle": "MUFG · investment banking · then Citi",
+      "title": "Six years inside one bank: enterprise data under audit",
+      "link": "",
+      "paragraphList": [
+        {
+          "text": "<strong>Situation</strong><br/>After years of moving between clients, six years in one place: the investment banking data organisation at MUFG, followed by Citi. The work was enterprise data platforms, business intelligence and data engineering for teams whose outputs went to regulators, auditors and the front office."
+        },
+        {
+          "text": "<strong>Constraint</strong><br/>Bank change control, model risk, internal and external audit. Systems that live under audit acquire habits: append-only logs, lineage, reconciliations that explain themselves, evidence that survives hostile review. A release that cannot show its test plan and its rollback does not ship."
+        },
+        {
+          "text": "<strong>What shipped</strong><br/>Data platforms and reporting that were built to the release process rather than around it: small increments that passed review, documented controls, and reporting cycles that ran without a person rebuilding them. And a depth of domain knowledge that only staying buys: how the business actually makes and loses money, and why the generic pattern does not apply here."
+        },
+        {
+          "text": "<strong>Time to production</strong><br/>Continuous over six years, in weekly and monthly increments inside the bank's release calendar, rather than one big-bang delivery."
+        },
+        {
+          "text": "<strong>Outcome</strong><br/>The judgment I bring into every AI deployment now: what a second-line reviewer will ask, what an examiner accepts as evidence, and how to ship inside a bank without fighting its change control. Twelve years in enterprise data, a decade across banks."
+        },
+        {
+          "text": "<strong>What broke, and the fix</strong><br/>Consultants and employees are both expendable; that is the honest part of both careers. The lesson was to leave systems that run without you and still be the person they call back. Designing the exit from the start, and writing the handover while you are still in the room, is how you do both."
+        }
+      ]
+    },
+    {
+      "ImgLink": "/images/services-2.jpg",
+      "subTitle": "Own product · self-hosted · redaction, policy as code, hash-chained audit log",
+      "title": "Ledgerproof: a governed AI gateway for accounting firms",
+      "link": "https://ledgerproof.netlify.app/",
+      "paragraphList": [
+        {
+          "text": "<strong>Situation</strong><br/>Small US tax and accounting firms are financial institutions under the FTC Safeguards Rule, and the IRS Office of Professional Responsibility now expects documented review of AI output. Staff were already pasting client data into public chatbots with no record of what left."
+        },
+        {
+          "text": "<strong>Constraint</strong><br/>Nothing may route through a vendor. The control has to run on the firm's own machine, work with OpenAI, Anthropic or a fully local model, and produce evidence an examiner accepts."
+        },
+        {
+          "text": "<strong>What shipped</strong><br/>A self-hosted gateway: PII and tax-data redaction before any prompt leaves (Presidio plus tax-tuned rules), YAML policy enforced as running code (allow, redact, block per data class), a hash-chained tamper-evident audit log, a one-click examiner-ready Evidence Pack, a Claude Desktop MCP mode, Docker and Windows installers. 50 tests green on every build."
+        },
+        {
+          "text": "<strong>Time to production</strong><br/>Built and shipped as a product in one continuous build, then reshaped after research. Installs in about two weeks per firm."
+        },
+        {
+          "text": "<strong>Outcome</strong><br/>Pilot stage. A healthcare pilot on synthetic patient data is in build: a HIPAA policy profile covering the Safe Harbor identifiers, and three generative deliverables (imaging report narrative, patient communication, patient-management brief) that run through the gateway and are handed to the client's own developers as production code. No real patient data is used at any stage."
+        },
+        {
+          "text": "<strong>What broke, and the fix</strong><br/>The first version led with the firewall. Research showed redaction is now table stakes inside the tools firms already buy; the thing nobody else produces is the evidence. The product and the pitch were reshaped around the Evidence Pack."
+        }
+      ]
+    },
+    {
+      "ImgLink": "/images/services-1.jpg",
+      "subTitle": "Own practice · architecture for local models and agents",
+      "title": "Orchest AI: the self-hosted agent stack you own",
+      "link": "https://alphadata-agentic-ai.netlify.app/",
+      "paragraphList": [
+        {
+          "text": "<strong>Situation</strong><br/>Open-weight models reached parity on code, yet enterprise open-source share fell from 19% to 11% in a year. Not a capability gap: nobody knows how to architect and operate the stack."
+        },
+        {
+          "text": "<strong>Constraint</strong><br/>The client owns the hardware, the weights, the harness and the data. The architect designs it, proves it, hands it over, and does not become a dependency."
+        },
+        {
+          "text": "<strong>What shipped</strong><br/>Reference architecture: OpenClaw-style agent harness, Ollama or vLLM serving, a 27B to 32B open model with 64K context as the floor, retrieval over the client's documents, approval gates and spend caps, an operating loop (plan, apply, unify, loop) with observability. Plus the honest limits page: where a frontier API is still the right call."
+        },
+        {
+          "text": "<strong>Time to production</strong><br/>Engagements start with a two-week written Architecture Review, then a 90-day build sequence the client can run with or without me."
+        },
+        {
+          "text": "<strong>Outcome</strong><br/>An ownership manifest, a published reference stack, and a retainer scoped on outcomes rather than hours. The client keeps the weights, the infra, the prompts, the evals and the repo."
+        },
+        {
+          "text": "<strong>What broke, and the fix</strong><br/>The first site sold eight generic skills and a Calendly. Rebuilt around the ownership manifest and the reference stack, because a vendor can list features and only an architect can list what you keep."
+        }
+      ]
+    },
     {
       "ImgLink": "/images/beast-games-dashboard.png",
       "subTitle": "AI & Data Analytics · YouTube × Amazon Prime",
@@ -218,222 +332,131 @@
   ],
   "blogData": [
     {
-      "ImgLink": "/images/blog/gap-widening-agentic-ai.jpg",
-      "date": "6 April, 2026",
+      "ImgLink": "/images/consulting.png",
+      "date": "26 August, 2026",
       "delay": "700",
-      "title": "🤖 The Gap Is Widening: Agentic AI Is No Longer Optional for Financial Services",
+      "title": "The onsite implementation playbook: what years across GRC clients and six years inside one bank taught me",
       "paragraphList": [
         {
-          "text": "<em>Tags: Agentic AI, Financial Services · April 6, 2026 · 7 min read</em>"
+          "text": "My first week onsite at a bank, the signed scope and the actual problem were two different documents. That is not a failure of the sales process. It is the job. What you discover in the building is always different from what was sold, and the implementation consultant is the person hired to close that gap without anyone losing face."
         },
         {
-          "text": "I want to be honest with you. For the last two years, I sat through conference panels where \"agentic AI\" got tossed around like a magic word. Everyone nodded. Nobody was actually shipping it. That era is over, and if you're still waiting for permission to move, the gap between you and the leaders is widening by the day."
+          "text": "The vendor's view and the customer's view of the same platform are different products. At Nasdaq BWise I implemented a governance, risk and compliance platform for banks, insurers and corporates, and every client meant adapting to their business before their data. A risk taxonomy is an argument about how a company sees itself. Three functions will not agree on it, and you configure against a versioned first draft while the argument continues, or the project stalls in workshops."
         },
         {
-          "text": "Here's what's changing my conversations with clients: according to Wolters Kluwer, 44% of finance teams will use agentic AI in 2026 - a 600% year-over-year jump. Organizations are hitting an average 2.3x return on agentic AI investments within 13 months. That's not a pilot metric anyone can explain away. That's production, and it's happening right now."
+          "text": "Managing expectations is a delivery skill, not a soft skill. Every new request gets priced in time and money at the moment it is asked, in the room, not at the end of the phase. New requests were never the problem. Silent ones were. A weekly cadence that shows accomplishments, next milestones, risks and budget keeps a steering committee from ever being surprised, and a committee that is never surprised keeps signing."
         },
         {
-          "text": "<strong>From Process-Driven to Outcome-Driven</strong>"
+          "text": "Bedside manner is technique. I was the business intelligence lead by title, and the reporting layer could be perfect while the customer still did not get what they bought, because the evidence never arrived from the control owners, approvals sat with Legal, and remediation went untracked until the auditor asked. Looking past your own scope at what they are getting from the whole product is how you earn the second engagement. Ask what they think the answer is. When you overrule it, explain why in their language, so the disagreement stays about the work."
         },
         {
-          "text": "Traditional AI in financial services was rules-based. Agentic AI is a different animal entirely - it plans, reasons, and adapts across multi-step workflows in real time. I'm watching agents handle end-to-end loan origination, real-time portfolio rebalancing inside risk limits, and AML workflows that escalate exceptions to humans without ever touching a ticket queue. These are not demos. I've seen them run in production."
+          "text": "Onsite and after you roll off are different jobs. In the room you can show a working screen on day two and settle a week of debate in ten minutes. After you leave, only what you wrote down and what you made their people run in front of you survives. So the handover gets written while you are still onsite, hypercare ends on exit criteria rather than a calendar date, and the exit is designed at the start."
         },
         {
-          "text": "And the results speak for themselves - 99% of organizations that have adopted agentic AI say it has improved operational efficiency and workforce productivity. When 99 out of 100 people agree on anything, you should probably pay attention."
+          "text": "Then I stopped touring. Six years in one bank, MUFG, and later Citi. Touring twelve clients teaches you patterns. Staying teaches you why the pattern does not apply here: how the business actually makes and loses money, what a second-line reviewer will ask, what an examiner accepts as evidence. Each half of the career made the other half worth more."
         },
         {
-          "text": "<strong>The 10x Bank Is Not a Metaphor</strong>"
+          "text": "The honest part: consultants and employees are both expendable. The only answer I have found is to leave systems that run without you and to be the person they call back anyway. That is the whole playbook, and it is the same playbook I use now when the product being installed is AI."
+        }
+      ]
+    },
+    {
+      "ImgLink": "/images/blog/gap-widening-agentic-ai.jpg",
+      "date": "26 August, 2026",
+      "delay": "700",
+      "title": "What a forward deployed engineer actually does, and why the title is newer than the job",
+      "paragraphList": [
+        {
+          "text": "The title showed up on job boards in volume this year: postings went from a few hundred to over five thousand in twelve months. The job did not. Anyone who has implemented a governance platform onsite for a bank already knows it: you write production code, you deploy it inside the customer's environment, and you own the outcome after the contract is signed."
         },
         {
-          "text": "Accenture's banking leadership is already using the phrase \"10x bank\" - an institution where a single person leads a team of AI co-workers and delivers exponentially greater output. Growth is no longer constrained by headcount. It's constrained by your ability to reinvent how work actually gets done."
+          "text": "Three things separate it from consulting. You ship, you do not advise and leave. You work inside the customer's change control instead of around it. And you carry the outcome into year two: monitoring, evaluation, the quiet fixes nobody writes a case study about."
         },
         {
-          "text": "At one major bank, deploying agents alongside software engineers cut what would have required 250 developers over three years down to a fraction of that timeline. Agents wrote code, critiqued it, tested it, iterated on it. Senior engineers got to spend their time on oversight and the hard judgment calls. Honestly? That's the kind of story I've wanted to tell my whole career."
+          "text": "The skill hiring managers say they test most is decomposition: take a vague, slightly frightening brief and turn it into workstreams a team can staff. The second is comfort with a room that has a C-suite sponsor and a line analyst in it at the same time. The technical bar is table stakes."
         },
         {
-          "text": "<strong>What the Laggards Are Getting Wrong</strong>"
-        },
-        {
-          "text": "Here's the uncomfortable truth. 99% of companies plan to put agents into production, but only 11% actually have. And it's not because the technology isn't ready. It's because their data isn't. Messy data, missing lineage, zero governance. Ungoverned data doesn't just create compliance risk - it turns autonomous agents into automated hallucination machines, and you'll watch your AI confidently make wrong decisions at scale."
-        },
-        {
-          "text": "The institutions winning in 2026 treat their proprietary data as a strategic differentiator for AI, not a back-office concern. That reframe is the whole unlock."
-        },
-        {
-          "text": "<em><strong>Alpha Data Capital take:</strong> If a client asks us to \"evaluate AI agents,\" the real question is always simpler - is your data architecture ready to support autonomous decision-making? We start there every single time. It's the honest answer, even when it's not the one people want to hear.</em>"
+          "text": "If you are hiring for it, ask for the discovery document from a past deployment, not the demo. If you are becoming one, publish yours."
         }
       ]
     },
     {
       "ImgLink": "/images/blog/eu-ai-act-enforcement.jpg",
-      "date": "5 April, 2026",
-      "delay": "800",
-      "title": "⚖️ The EU AI Act Enforcement Clock Is Running. Here's What Data Leaders Must Do Before August.",
+      "date": "26 August, 2026",
+      "delay": "700",
+      "title": "Change control is not the enemy: shipping AI inside a bank's release process",
       "paragraphList": [
         {
-          "text": "<em>Tags: Data Governance, Regulation · April 5, 2026 · 8 min read</em>"
+          "text": "Most AI pilots die at the same gate. The demo worked in a sandbox; the release process asks for evidence, rollback, access review and a named owner, and the team that built the demo has none of it."
         },
         {
-          "text": "This is not another \"prepare for AI regulation\" think piece. I'm tired of those too. The EU AI Act's GPAI model obligations have been in force since August 2025. High-risk AI system enforcement kicks in on August 2, 2026 - risk management systems, data governance documentation, automatic logging, transparency mechanisms, human oversight, accuracy testing. Hard deadline. Hard penalties. I don't know how to say this more plainly."
+          "text": "The fix is not to fight change control. It is to build to it from day one: environment parity, a written test plan, evaluation sets that a second-line reviewer can rerun, logging that answers what the system did on a given date, and a rollback that is a command rather than a meeting."
         },
         {
-          "text": "Penalties range from €15 million under the EU AI Act to $10,000 to $1 million per violation under U.S. state laws. The checkbook is real."
+          "text": "Small releases matter more in regulated environments, not less. A weekly increment that passes review beats a quarterly big bang that sits in a queue. Days rather than quarters is achievable inside a bank; it just has to be designed for."
         },
         {
-          "text": "<strong>The U.S. Patchwork Is Just as Complicated</strong>"
-        },
-        {
-          "text": "If you're only watching the EU, you're missing the bigger problem at home. Right now, twenty U.S. states have AI-specific laws either passed or in development, and laws touching data protection, cybersecurity, and AI have exploded 400% since 2016. California's AI Transparency Act, Texas's RAIGA, and Colorado's AI Act (effective June 30, 2026) layer overlapping requirements on top of each other. No federal framework is coming to save anyone."
-        },
-        {
-          "text": "Overlapping state laws, EU enforcement, federal ambiguity, rapidly shifting standards - this isn't a temporary mess. It's the new normal. The sooner leadership accepts that, the less painful the transition gets."
-        },
-        {
-          "text": "<strong>Article 10 Is Your Data Quality Mandate</strong>"
-        },
-        {
-          "text": "Article 10 requires training data to be \"relevant, representative, free of errors, and complete,\" with explicit examination for bias. I need you to understand what that actually means - this is not a documentation exercise. It requires real data lineage infrastructure, schema validation, bias detection tooling, and audit trails you can produce on demand. Organizations that built these foundations in 2024 and 2025 are in compliance today. Everyone else is six to nine months behind the August deadline, and that math doesn't work in your favor."
-        },
-        {
-          "text": "<strong>The Sequencing That Actually Works</strong>"
-        },
-        {
-          "text": "If you're behind, don't panic. But sequence matters. Start with data lineage infrastructure - it's the foundational layer everything else rests on. Then implement audit logging early, because retrofitting that later is significantly more painful and expensive. Once you can actually see your data flows, integrate model documentation into your CI/CD pipelines. And please, design for data residency requirements now, not later. I've seen teams rebuild entire architectures because nobody thought about this upfront."
-        },
-        {
-          "text": "<em><strong>Alpha Data Capital take:</strong> Governance maturity is becoming a revenue qualification. For SMBs trying to close enterprise deals, a mature AI governance posture is increasingly a revenue requirement, not a legal one. We build this into every engagement scope from day one because we've watched too many deals die over a missing audit log.</em>"
+          "text": "The version of this I learned at MUFG: a release that could not show its test plan and its rollback did not ship, and the teams who resented that spent their quarters in the queue. The teams who built to it shipped weekly. Change control was never the constraint. Building as if it did not exist was."
         }
       ]
     },
     {
       "ImgLink": "/images/blog/quiet-death-static-dashboard.jpg",
-      "date": "4 April, 2026",
-      "delay": "900",
-      "title": "📊 The Quiet Death of the Static Dashboard - And What Replaces It",
+      "date": "26 August, 2026",
+      "delay": "700",
+      "title": "The audit trail is the product: evidence-first AI for regulated firms",
       "paragraphList": [
         {
-          "text": "<em>Tags: Decision Intelligence, Analytics Trends · April 4, 2026 · 6 min read</em>"
+          "text": "Every vendor in the AI governance space sells a control: redaction, filtering, policy. Almost nobody sells the thing the examiner actually asks for, which is proof. The auditor's favourite question has not changed: show me where your policy says X, then show me the evidence you are actually doing X."
         },
         {
-          "text": "I love dashboards. I built my career on them. So please hear me out when I say this - the dashboard, as we knew it, is dying. And it's not sad. It's overdue."
+          "text": "In June the IRS Office of Professional Responsibility applied Circular 230 to AI use and said, in plain terms, that documentation of the review of AI output is expected. That is a federal regulator naming an artifact."
         },
         {
-          "text": "Think about what a dashboard actually is - a periodic snapshot of historical data, formatted for human review, requiring a trained analyst to interpret and translate into action. In 2019, that was state of the art. In 2026, it's a bottleneck. Business leaders don't want to wait for the Monday morning report anymore. They want real-time answers, natural-language interaction with data, and proactive intelligence that flags risks before they become problems."
+          "text": "Building Ledgerproof taught me the order of operations. The gateway, the redaction and the policy engine are necessary. The hash-chained log and the Evidence Pack are what a firm owner can hand to whoever is asking. Lead with the proof; the control is the reason the proof can be trusted."
         },
         {
-          "text": "<strong>The Copilot Layer Is Replacing the BI Layer</strong>"
-        },
-        {
-          "text": "Autonomous analytics copilots - systems that take a natural language question and return charts, forecasts, narratives, and recommendations without anyone touching SQL - are the fastest-growing segment of the analytics market. What's different now is that these systems understand business semantics, governance rules, and organizational data models. They don't just run queries. They explain results and hold actual follow-up conversations."
-        },
-        {
-          "text": "SR Analytics found that in 2026, 80% of employees will consume insights directly inside the business applications they already use. Not from a separate BI platform. From wherever they already do their work. That's a massive shift, and honestly, it's how it should have been all along."
-        },
-        {
-          "text": "<strong>Data Mesh Is the Architecture Underneath</strong>"
-        },
-        {
-          "text": "The centralized data warehouse model, where a single platform team owns everything, is giving way to data mesh. Domain teams own and serve their data as products. Each domain treats their data with real SLAs, real documentation, real quality guarantees. Other teams consume it through proper interfaces, not ad-hoc requests to an overworked data team at the end of a Slack thread."
-        },
-        {
-          "text": "<strong>What Analytics Leaders Should Be Building Now</strong>"
-        },
-        {
-          "text": "If I could sit every analytics leader down for ten minutes, this is what I'd tell them. The functions that will matter in the next few years are doing three things - building semantic data layers that AI copilots can reason against, embedding insights directly into the workflows where decisions actually happen, and investing in data observability so autonomous systems can be trusted. That's the work. Everything else is noise."
-        },
-        {
-          "text": "AutoML platforms now let business analysts who understand their domain build churn models, demand forecasts, and risk assessments themselves. That's a gift to analytics leaders who want to move faster, if they can get out of the way."
-        },
-        {
-          "text": "<em><strong>Alpha Data Capital take:</strong> Our best analytics engagements today look nothing like a BI project. They're semantic layer design, AI readiness assessments, and embedding intelligence into business workflows. If your team's primary output is still a Tableau workbook, it's time for an honest conversation about what you're actually building toward. I've had that conversation with clients and it's hard. But it's fair.</em>"
+          "text": "The same logic applies to any AI system in a bank, an insurer or a clinic. If the record does not exist, the control did not happen."
         }
       ]
     },
     {
       "ImgLink": "/images/consulting.png",
-      "date": "3 April, 2026",
-      "delay": "1000",
-      "title": "🏛️ Data Governance Is Not a Compliance Problem. It's Your Revenue Model.",
+      "date": "26 August, 2026",
+      "delay": "700",
+      "title": "Own your AI: why open-weight parity did not move enterprise adoption",
       "paragraphList": [
         {
-          "text": "<em>Tags: Data Governance, Enterprise Strategy · April 3, 2026 · 7 min read</em>"
+          "text": "Open-weight models caught up on code this year. Enterprise share of open-source models fell anyway, from 19% to 11%. The capability arrived; the adoption went the other way."
         },
         {
-          "text": "If I could go back and change one thing about how our industry thinks about data governance, it would be this - most organizations inherited their governance framing from the GDPR era. Governance was expensive, reactive, and fundamentally about avoiding fines. It made everyone hate it. And I understand why."
+          "text": "The reason is not the models. Running a 27B to 32B model with a 64K context window on hardware you own, serving it reliably, wiring an agent harness to it, and operating the result under your own security controls is an architecture and operations problem. Very few teams have done it once."
         },
         {
-          "text": "But the AI economy has flipped this entirely. Governed data is the raw material for every AI capability that generates real competitive advantage. Ungoverned data isn't just a compliance risk anymore - it's a hard ceiling on your AI roadmap, and that ceiling keeps getting lower the longer you wait."
+          "text": "The economics are real: a self-hosted model on an entry server pays for itself in months at moderate volume, and for firms with data that cannot leave the building the cloud option was never really available. What is missing is the person who designs the stack, proves it, and hands it over without becoming a dependency."
         },
         {
-          "text": "The leaders who win in 2026 will be the ones who understand that data's value comes from how well it can be understood and acted on, not how much of it you have. Your data has to function like a living, semantic, governed memory system that AI can learn from and reason with. You cannot scale AI until you re-architect the data underneath it. I've watched companies try to skip this step, and it always ends the same way."
-        },
-        {
-          "text": "<strong>GenAI-Enhanced Governance Is Compressing the Build Timeline</strong>"
-        },
-        {
-          "text": "Here's the good news. The 18-month governance buildout is getting dramatically compressed. GenAI-enhanced governance tools can automatically classify datasets, infer metadata, enrich lineage, and detect quality issues at scale. Work that used to take weeks now takes hours. That's not marketing spin - I've seen it firsthand with teams I work with."
-        },
-        {
-          "text": "IDC says global spending on big data and analytics will hit $420 billion in 2026. Gartner predicts that by 2027, 60% of repetitive data management tasks will be automated. Governance itself is being AI-augmented, which is honestly a little poetic."
-        },
-        {
-          "text": "<strong>The Organizational Design Problem</strong>"
-        },
-        {
-          "text": "The technical architecture is the easy half. The hard half is people. Centers of excellence that actually develop and share best practices. Clear escalation paths connecting distributed teams to central governance councils for the decisions that need cross-functional input. Balance between efficiency and control. I've seen beautiful technical setups fail because the org chart wasn't right. Don't let that be you."
-        },
-        {
-          "text": "Organizations that bake governance into their AI culture - instead of treating it as an external constraint imposed from above - innovate faster and manage risk better. It's not a paradox. It's just what happens when people stop fighting the rules and start owning them."
-        },
-        {
-          "text": "<strong>The Revenue Model Hidden Inside Your Cost Center</strong>"
-        },
-        {
-          "text": "Here's the insight I keep trying to get executives to hear. Governed data enables experimentation with AI that ungoverned data prohibits. That's the revenue model your company is probably still treating as overhead. When domain teams own their data as a product, with real SLAs and quality guarantees, governance stops being a tax on their time and starts being the foundation of their AI roadmap. The same activity, reframed, goes from cost center to profit center."
-        },
-        {
-          "text": "<em><strong>Alpha Data Capital take:</strong> In every financial services engagement we run, the first governance deliverable we push for isn't a policy document. It's a data product inventory with SLAs and ownership. Once domain teams own their data as a product, governance stops being a tax and becomes an investment. That reframe changes everything, and I've watched it happen.</em>"
+          "text": "That is the practice I run at Orchest AI. The site lists the reference stack, the ownership manifest, and the honest limits page, including where a frontier API is still the right answer."
         }
       ]
     },
     {
       "ImgLink": "/images/blog/ai-factory-model.jpg",
-      "date": "2 April, 2026",
-      "delay": "1100",
-      "title": "🏭 The AI Factory Model: Why Point Solutions Are Costing You Twice",
+      "date": "26 August, 2026",
+      "delay": "700",
+      "title": "Agents are not the default: loops, harnesses, and when a plain pipeline wins",
       "paragraphList": [
         {
-          "text": "<em>Tags: AI Strategy, Enterprise · April 2, 2026 · 6 min read</em>"
+          "text": "The question I get most from operators now is not whether to use agents. It is what they actually get from agentic adoption, and what to do when an agent is the wrong tool."
         },
         {
-          "text": "Procter & Gamble calls it an AI Factory. Intuit calls it GenOS. The names vary, but the idea is the same and it's the right one. Both companies treat every form of AI - analytical, generative, agentic - as capabilities running on a shared internal foundation. Companies without that foundation force every data scientist and AI team to reinvent the wheel. New tools, new data discovery, new methodology, every single time. It's expensive, slow, and it burns out your best people. I've seen it happen more times than I want to count."
+          "text": "Three shapes cover most real work. A pipeline: deterministic steps, a model inside one or two of them, no autonomy, easiest to audit. A loop: a recurring goal with memory that runs on a schedule, checks what changed, acts, and pauses at a guardrail for a human. An agent: open-ended planning over tools, which you reserve for problems where the path genuinely cannot be written down in advance."
         },
         {
-          "text": "<strong>What an AI Factory Actually Contains</strong>"
+          "text": "Harness engineering is the discipline around all three: the context each step sees, what gets logged, how work is delegated to sub-agents, how sessions are compacted and handed off, where spend caps and approval gates sit. It is not a trend. It is what makes any of the three survive contact with a real workflow."
         },
         {
-          "text": "A real AI factory has a centralized platform for deployment and oversight, drawing on a shared library of agents, templates, and tools. Before anything goes live, agents get tested, flaws get fixed, working demos get created so the next team can learn from the last one. Rollouts happen as part of redesigned workflows, with clear steps for human initiative, review, and oversight. And there's built-in monitoring where different agents actually check each other's work. It's systems thinking, not heroics."
-        },
-        {
-          "text": "PwC calls the organizational hub driving this an \"AI Studio\" - the place where business goals get linked to AI capabilities through a real process for evaluating use cases, sizing ROI, and deciding what to fund."
-        },
-        {
-          "text": "<strong>The 80/20 Rule of AI Value Creation</strong>"
-        },
-        {
-          "text": "This one always hits executives hard when I share it. Technology delivers only about 20% of an AI initiative's value. The other 80% comes from redesigning the work itself - so agents handle the routine stuff and people focus on what actually matters. The factory creates the infrastructure for the 20%. Organizational redesign unlocks the 80%. And most enterprises are pouring money into the first and barely touching the second. It's painful to watch."
-        },
-        {
-          "text": "<strong>Organizational AI vs. Individual AI</strong>"
-        },
-        {
-          "text": "If 2025 was the year we realized generative AI had a value-realization problem, 2026 is the year we're finally doing something about it. Individual AI usage - employees using tools for personal productivity - has been widespread since 2023. Organizational AI is a fundamentally different beast. Models trained on proprietary data. Integrated into core processes. Governed centrally. Continuously improved from operational feedback. That's the work that actually moves the needle."
-        },
-        {
-          "text": "Companies should start thinking about how agents enable new ways of working, building trusted agents that can be reused across the organization, and even piloting interorganizational agents with cooperative suppliers or customers. It sounds ambitious, and it is. But someone's going to do it first, and the advantage compounds fast."
-        },
-        {
-          "text": "<em><strong>Alpha Data Capital take:</strong> For mid-market financial services clients, standing up a full AI factory isn't realistic and I tell them that honestly. But the principles are. We help them build a minimum viable shared foundation - a governed data layer, a curated model policy, a standard deployment template, and an AI use case intake process. That's the 20% that unlocks the 80%. It's not sexy, but it works.</em>"
+          "text": "Start with the pipeline. Promote to a loop when the job recurs. Promote to an agent only when you have evidence the path cannot be fixed. Most teams that skipped those steps are now paying for it in tokens and trust."
         }
       ]
     }
@@ -539,19 +562,19 @@
       {
         "icon": "linkedin",
         "link": "https://www.linkedin.com/in/umairtareen",
-        "title": "Chat with me",
-        "text": "Connect On LinkedIn"
+        "title": "LinkedIn",
+        "text": "Field notes and deployments, weekly"
       },
       {
         "icon": "envelope",
-        "title": "Email Me",
+        "title": "Email",
         "emailLink": "umair@aitobianalytics.com",
         "text": ""
       }
     ],
     "contactForm": {
-      "title": "Got Ideas? Got Skills? Lets team up.",
-      "text": "Tell me more about yourself and what you have in mind."
+      "title": "Tell me the system, the constraint, and the date it needs to be live.",
+      "text": "Hiring for a forward deployed role, or scoping a deployment inside a regulated environment. Either way, one message is enough to start."
     }
   },
   "footerData": {

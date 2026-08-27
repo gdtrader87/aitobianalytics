@@ -16,7 +16,7 @@ const Service = ({ data }) => {
     <section id="services" className="py-20 bg-dark">
       <div className="container mx-auto px-4">
         <BlurFade delay={0.1} duration={0.6} direction="up">
-          <SectionHeading title="My Specialties" subTitle="WHAT I DO" />
+          <SectionHeading title="Discovery, build, production, handover" subTitle="HOW I WORK" />
         </BlurFade>
 
         <BlurFade delay={0.2} duration={0.6} direction="up">

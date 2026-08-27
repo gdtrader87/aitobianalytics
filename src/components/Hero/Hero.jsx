@@ -129,7 +129,7 @@ const Hero = ({ data }) => {
                       borderRadius="12px"
                       className="text-base font-semibold text-white px-8 py-3.5 gap-2"
                     >
-                      Work with ME
+                      Book a scoping call
                       <Icon icon="bi:arrow-up-right" className="text-lg" />
                     </ShimmerButton>
                   </ScrollLink>

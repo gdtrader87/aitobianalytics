@@ -16,9 +16,9 @@ import { Separator } from '@/components/ui/separator';
 const NAV_ITEMS = [
   { id: 'home', label: 'Home' },
   { id: 'about', label: 'About' },
-  { id: 'services', label: 'Services' },
-  { id: 'work', label: 'Portfolio' },
-  { id: 'blog', label: 'Blog' },
+  { id: 'services', label: 'How I work' },
+  { id: 'work', label: 'Deployments' },
+  { id: 'blog', label: 'Field notes' },
   { id: 'contact', label: 'Contact' },
 ];
 
@@ -126,7 +126,20 @@ const Header = ({ data }) => {
             if (onClick) onClick();
           }}
         >
-          Agentic AI
+          Orchest AI
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://ledgerproof.netlify.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="block px-4 py-2.5 rounded-lg text-sm font-medium tracking-wide uppercase transition-all duration-200 text-white/70 hover:text-white hover:bg-white/5"
+          onClick={() => {
+            if (onClick) onClick();
+          }}
+        >
+          Ledgerproof
         </a>
       </li>
     </ul>

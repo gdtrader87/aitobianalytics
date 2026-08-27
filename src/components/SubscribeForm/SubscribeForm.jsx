@@ -41,7 +41,7 @@ const SubscribeForm = () => {
             <div className="newsletter-container">
                 <h2 className="newsletter-title">Subscribe to our Newsletter</h2>
                 <p className="newsletter-text">
-                Subscribe now and receive a free eBook: "Future of coaching: AI Analytics in goal tracking "
+                One email when a new deployment writeup or field note goes up. Unsubscribe anytime.
                 </p>
                 <form onSubmit={handleSubmit} className="newsletter-form">
                     <input

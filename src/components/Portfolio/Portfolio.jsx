@@ -22,7 +22,7 @@ const Portfolio = ({ data }) => {
     <section>
       <div id="work" className="py-20 bg-gradient-theme">
         <div className="container mx-auto px-4">
-          <SectionHeading title="RECENT PROJECT" subTitle="My Work" />
+          <SectionHeading title="Deployments" subTitle="Situation, constraint, what shipped, what broke" />
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
             {data.map((element, index) => (
               <BlurFade key={index} delay={0.15 + index * 0.1} inView>

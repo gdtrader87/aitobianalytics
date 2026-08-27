@@ -93,7 +93,7 @@ const Contact = ({ data }) => {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10">
           {/* Left column - Contact Info */}
           <div className="lg:col-span-5">
-            <SectionHeading title="Let's Work Together" subTitle="Contact" />
+            <SectionHeading title="Book a scoping call" subTitle="Contact" />
             <BlurFade delay={0.2} inView>
               <ul className="space-y-6 mt-6">
                 {contactInfo.map((element, index) => (
