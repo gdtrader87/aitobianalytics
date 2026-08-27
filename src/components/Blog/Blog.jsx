@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import SectionHeading from '../SectionHeading/SectionHeading';
-import { useState } from 'react';
+import { lazy, Suspense, useState } from 'react';
 import { socialData } from '../../data.json';
 import { Icon } from '@iconify/react';
 import { BlurFade } from '@/components/ui/blur-fade';
@@ -13,6 +13,8 @@ import {
   DialogTitle,
   DialogDescription,
 } from '@/components/ui/dialog';
+
+const PipelineFlowGraphic = lazy(() => import('../graphics/PipelineFlowGraphic'));
 
 const Blog = ({ data }) => {
   const [selectedPost, setSelectedPost] = useState(null);
@@ -37,11 +39,21 @@ const Blog = ({ data }) => {
                     >
                       <Card className="bg-[#1b1840] border-0 overflow-hidden rounded-xl hover:shadow-lg hover:shadow-[var(--color-theme)]/10 transition-all duration-300 group">
                         <div className="overflow-hidden">
-                          <img
-                            src={element.ImgLink}
-                            alt={element.title}
-                            className="w-full h-48 object-cover object-top transition-transform duration-500 group-hover:scale-105"
-                          />
+                          {element.title.startsWith('Agents are not the default') ? (
+                            <Suspense fallback={<img src={element.ImgLink} alt={element.title} className="h-48 w-full object-cover" />}>
+                              <div className="h-48 bg-[#0d0b1c] transition-transform duration-500 group-hover:scale-[1.02]">
+                                <PipelineFlowGraphic />
+                              </div>
+                            </Suspense>
+                          ) : (
+                            <img
+                              src={element.ImgLink}
+                              alt={element.title}
+                              className="w-full h-48 object-cover object-top transition-transform duration-500 group-hover:scale-105"
+                              loading="lazy"
+                              decoding="async"
+                            />
+                          )}
                         </div>
                         <CardContent className="p-4">
                           <h6 className="text-xs text-[var(--color-theme)] mb-2">
@@ -66,11 +78,21 @@ const Blog = ({ data }) => {
                       )}
                     </DialogHeader>
                     <div className="mt-4">
-                      <img
-                        src={element.ImgLink}
-                        alt={element.title}
-                        className="w-full rounded-lg mb-4"
-                      />
+                      {element.title.startsWith('Agents are not the default') ? (
+                        <Suspense fallback={<img src={element.ImgLink} alt={element.title} className="mb-4 w-full rounded-lg" />}>
+                          <div className="mb-4 h-72 overflow-hidden rounded-lg border border-[#2d2956] bg-[#0d0b1c]">
+                            <PipelineFlowGraphic />
+                          </div>
+                        </Suspense>
+                      ) : (
+                        <img
+                          src={element.ImgLink}
+                          alt={element.title}
+                          className="w-full rounded-lg mb-4"
+                          loading="lazy"
+                          decoding="async"
+                        />
+                      )}
                       {element.date && (
                         <p className="text-sm text-[var(--color-theme)] mb-4">
                           {element.date}

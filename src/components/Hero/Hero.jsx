@@ -1,6 +1,5 @@
 import PropTypes from 'prop-types';
 import { Icon } from '@iconify/react';
-import { useEffect } from 'react';
 import parse from 'html-react-parser';
 import { Link as ScrollLink } from 'react-scroll';
 import { TypingAnimation } from '@/components/ui/typing-animation';
@@ -22,20 +21,6 @@ const Hero = ({ data }) => {
     email,
     socialData,
   } = data;
-
-  useEffect(() => {
-    const handleScroll = () => {
-      const scrollValue = window.scrollY;
-      const heroElements = document.querySelector('.hb-me');
-      if (heroElements) {
-        heroElements.style.right = `${scrollValue * -0.25}px`;
-      }
-    };
-    window.addEventListener('scroll', handleScroll);
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, []);
 
   /* Strip <span> tags from subtitles (they come with wrapping <span>) */
   const stripSpan = (str) => str.replace(/<\/?span>/g, '');
@@ -81,11 +66,9 @@ const Hero = ({ data }) => {
           <div className="w-full lg:w-7/12 xl:w-7/12 2xl:w-6/12">
             <div className="space-y-6">
               {/* Title */}
-              <BlurFade delay={0.2} duration={0.6} inView>
-                <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight">
-                  {parse(title, titleReplacer)}
-                </h1>
-              </BlurFade>
+              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight">
+                {parse(title, titleReplacer)}
+              </h1>
 
               {/* Typing subtitle */}
               <BlurFade delay={0.4} duration={0.6} inView>
@@ -159,10 +142,14 @@ const Hero = ({ data }) => {
       </div>
 
       {/* Background image - positioned right */}
-      <div
-        className="hb-me absolute top-0 right-0 h-full w-[45%] bg-no-repeat bg-right-bottom bg-contain pointer-events-none z-[1] hidden lg:block"
-        style={{ backgroundImage: `url(${ImgLink})` }}
-      />
+      <div className="hb-me absolute right-0 top-0 z-[1] hidden h-full w-[45%] pointer-events-none lg:block">
+        <img
+          src={ImgLink}
+          alt="Umair Tareen in a financial-services operations office"
+          className="h-full w-full object-contain object-right-bottom"
+          decoding="async"
+        />
+      </div>
 
       {/* Vertical social links */}
       <div className="hidden lg:flex fixed right-6 top-1/2 -translate-y-1/2 z-20 flex-col items-center gap-4">

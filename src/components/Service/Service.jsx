@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types';
+import { lazy, Suspense } from 'react';
 import SectionHeading from '../SectionHeading/SectionHeading';
 import { BlurFade } from '@/components/ui/blur-fade';
 import { MagicCard } from '@/components/ui/magic-card';
@@ -8,6 +9,8 @@ import {
   AccordionTrigger,
   AccordionContent,
 } from '@/components/ui/accordion';
+
+const HashChainVisual = lazy(() => import('../graphics/HashChainVisual'));
 
 const Service = ({ data }) => {
   const defaultItem = data.length > 0 ? `service-0` : undefined;
@@ -54,6 +57,8 @@ const Service = ({ data }) => {
                             src={element.imgLink}
                             alt={element.title}
                             className="w-full h-auto object-cover rounded-lg"
+                            loading="lazy"
+                            decoding="async"
                           />
                         </div>
                       </div>
@@ -64,6 +69,13 @@ const Service = ({ data }) => {
                         <div className="text-gray-300 text-sm leading-relaxed">
                           {element.text}
                         </div>
+                        {index === 2 && (
+                          <Suspense fallback={<div className="mt-6 h-36 rounded-xl border border-white/10 bg-[#121027]" />}>
+                            <div className="mt-6">
+                              <HashChainVisual />
+                            </div>
+                          </Suspense>
+                        )}
                       </div>
                     </div>
                   </MagicCard>

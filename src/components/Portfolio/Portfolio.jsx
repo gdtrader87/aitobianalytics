@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import SectionHeading from '../SectionHeading/SectionHeading';
 import { Icon } from '@iconify/react';
-import { useState } from 'react';
+import { lazy, Suspense, useState } from 'react';
 import { socialData } from '../../data.json';
 import { BlurFade } from '@/components/ui/blur-fade';
 import { MagicCard } from '@/components/ui/magic-card';
@@ -14,6 +14,8 @@ import {
   DialogDescription,
   DialogClose,
 } from '@/components/ui/dialog';
+
+const HashChainVisual = lazy(() => import('../graphics/HashChainVisual'));
 
 const Portfolio = ({ data }) => {
   const [selectedProject, setSelectedProject] = useState(null);
@@ -36,12 +38,21 @@ const Portfolio = ({ data }) => {
                         className="bg-[#1b1840] border-0 overflow-hidden rounded-xl"
                         gradientColor="rgba(38,175,129,0.15)"
                       >
-                        <div className="overflow-hidden">
+                        <div className="relative overflow-hidden">
                           <img
                             src={element.ImgLink}
                             alt={element.title}
                             className="w-full h-56 object-cover object-top transition-transform duration-500 hover:scale-105"
+                            loading="lazy"
+                            decoding="async"
                           />
+                          {element.title.startsWith('Ledgerproof') && (
+                            <Suspense fallback={null}>
+                              <div className="absolute inset-x-4 bottom-4 hidden rounded-xl border border-[#26af81]/30 bg-[#0d0b1c]/90 shadow-xl backdrop-blur sm:block">
+                                <HashChainVisual compact />
+                              </div>
+                            </Suspense>
+                          )}
                         </div>
                         <div className="p-5">
                           <h6 className="text-sm text-[var(--color-theme)] mb-1">
@@ -74,7 +85,16 @@ const Portfolio = ({ data }) => {
                         src={element.ImgLink}
                         alt={element.title}
                         className="w-full rounded-lg mb-6"
+                        loading="lazy"
+                        decoding="async"
                       />
+                      {element.title.startsWith('Ledgerproof') && (
+                        <Suspense fallback={<div className="mb-6 h-36 rounded-xl border border-white/10 bg-[#121027]" />}>
+                          <div className="mb-6">
+                            <HashChainVisual />
+                          </div>
+                        </Suspense>
+                      )}
                       <div className="space-y-4 text-gray-300">
                         {element.paragraphList &&
                           element.paragraphList.map((para, pIndex) => (

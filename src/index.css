@@ -87,3 +87,33 @@
   width: 8px; height: 8px; background: white;
   transition: all 0.08s ease-out; transform: translate(-50%, -50%);
 }
+
+/* Explanatory graphics */
+.hash-chain-visual {
+  border: 1px solid rgba(45, 41, 86, 0.95);
+  border-radius: 0.9rem;
+  background: rgba(13, 11, 28, 0.82);
+  padding: 1rem;
+  outline: none;
+}
+.hash-chain-visual:focus-visible {
+  box-shadow: 0 0 0 2px rgba(38, 175, 129, 0.65);
+}
+.hash-chain-visual--compact {
+  border: 0;
+  background: transparent;
+  padding: 0.65rem;
+}
+.pipeline-flow-graphic {
+  height: 100%;
+  width: 100%;
+  padding: 0.35rem 0.65rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hash-chain-visual *,
+  .pipeline-flow-graphic * {
+    animation: none !important;
+    transition: none !important;
+  }
+}

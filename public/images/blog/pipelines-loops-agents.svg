@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1536" height="1024" viewBox="0 0 1536 1024" role="img" aria-labelledby="title description">
+  <title id="title">Pipeline, loop, and agent execution patterns</title>
+  <desc id="description">Three restrained diagrams show a straight pipeline, a guarded loop, and a branching agent.</desc>
+  <rect width="1536" height="1024" fill="#0d0b1c"/>
+  <rect x="96" y="104" width="1344" height="224" rx="28" fill="#1b1840" stroke="#2d2956" stroke-width="3"/>
+  <rect x="96" y="400" width="1344" height="224" rx="28" fill="#1b1840" stroke="#2d2956" stroke-width="3"/>
+  <rect x="96" y="696" width="1344" height="224" rx="28" fill="#1b1840" stroke="#2d2956" stroke-width="3"/>
+
+  <path d="M250 216H1286" fill="none" stroke="#575272" stroke-width="16" stroke-linecap="round"/>
+  <path d="M250 216H1286" fill="none" stroke="#26af81" stroke-width="4" stroke-linecap="round" stroke-dasharray="12 22"/>
+  <g fill="#0d0b1c" stroke="#26af81" stroke-width="8">
+    <circle cx="250" cy="216" r="30"/><circle cx="596" cy="216" r="30"/>
+    <circle cx="940" cy="216" r="30"/><circle cx="1286" cy="216" r="30"/>
+  </g>
+
+  <path d="M424 512c0-78 72-118 176-118h336c104 0 176 40 176 118s-72 118-176 118H600c-104 0-176-40-176-118Z" transform="translate(0 -4) scale(1 .74) translate(0 180)" fill="none" stroke="#575272" stroke-width="16"/>
+  <path d="M424 512c0-78 72-118 176-118h336c104 0 176 40 176 118s-72 118-176 118H600c-104 0-176-40-176-118Z" transform="translate(0 -4) scale(1 .74) translate(0 180)" fill="none" stroke="#26af81" stroke-width="4" stroke-dasharray="12 22"/>
+  <g fill="#0d0b1c" stroke-width="8">
+    <circle cx="424" cy="512" r="30" stroke="#26af81"/>
+    <circle cx="768" cy="432" r="30" stroke="#26af81"/>
+    <circle cx="1112" cy="512" r="30" stroke="#e4a84b"/>
+    <circle cx="768" cy="592" r="30" stroke="#26af81"/>
+  </g>
+  <path d="M1094 494l36 36m0-36-36 36" stroke="#e4a84b" stroke-width="7" stroke-linecap="round"/>
+
+  <path d="M250 808H620M620 808l250-72M620 808l250 72M870 736h416M870 880h416" fill="none" stroke="#575272" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M250 808H620M620 808l250-72M620 808l250 72M870 736h416M870 880h416" fill="none" stroke="#26af81" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="12 22"/>
+  <g fill="#0d0b1c" stroke="#26af81" stroke-width="8">
+    <circle cx="250" cy="808" r="30"/><circle cx="620" cy="808" r="30"/>
+    <circle cx="870" cy="736" r="30"/><circle cx="870" cy="880" r="30"/>
+    <circle cx="1286" cy="736" r="30"/><circle cx="1286" cy="880" r="30"/>
+  </g>
+</svg>

@@ -10,7 +10,7 @@
     "subTitle3": "<span>12 years in enterprise data</span>",
     "subTitle4": "<span>A decade across banks</span>",
     "location": "Umair Tareen · based in <span>New York, USA</span> · onsite, embedded, or remote",
-    "ImgLink": "/images/home-banner.png",
+    "ImgLink": "/images/home-banner-fde.webp",
     "phone": "",
     "email": "umair@aitobianalytics.com",
     "btnText": "Book a scoping call",
@@ -27,7 +27,7 @@
   },
   "aboutData": {
     "aboutLeft": {
-      "ImgLink": "/images/about-banner.png",
+      "ImgLink": "/images/about-banner-fde.webp",
       "name": "Umair Tareen",
       "designation": "Forward Deployed Engineer | Regulated data and AI | <span>based in</span> New York, USA",
       "resumeCv": ""
@@ -159,34 +159,34 @@
       "title": "Discovery: turn the vague brief into workstreams",
       "heading": "Week 0 to 1",
       "triger": "One",
-      "imgLink": "/images/services-1.jpg",
+      "imgLink": "/images/services-discovery.webp",
       "text": "Every engagement starts with a room: the sponsor, the people who run the process today, and whoever has to sign off. I leave with a written scope: the system of record, the constraint (change control, data residency, a regulator, a legacy platform), success criteria in numbers, and a decomposition into workstreams you can staff and track. That document is the contract for everything after it."
     },
     {
       "title": "Build inside your environment, not next to it",
       "heading": "Weeks 1 to N",
       "triger": "Two",
-      "imgLink": "/images/services-2.jpg",
+      "imgLink": "/images/services-client-environment.webp",
       "text": "The code runs on your infrastructure, under your identity provider, through your release process. Python and TypeScript, MCP connectors into core systems with authentication, data mapping, error handling and audit requirements built in, retrieval over your own documents, agents where an agent is the right tool and plain pipelines where it is not. Small releases, days rather than quarters."
     },
     {
       "title": "Production with an audit trail",
       "heading": "Go-live",
       "triger": "Three",
-      "imgLink": "/images/services-3.jpg",
+      "imgLink": "/images/services-audit-chain.webp",
       "text": "Before anything touches a real workflow: output validation, evaluation sets, lineage, logging, model-risk controls a second-line reviewer can read. If an examiner asks what the system did on a given day, the answer is a record, not a memory. This is the habit I brought from six years at MUFG and it is the part most AI deployments skip."
     },
     {
       "title": "Handover and ownership after go-live",
       "heading": "After launch",
       "triger": "Four",
-      "imgLink": "/images/services-4.jpg",
+      "imgLink": "/images/services-handover.webp",
       "text": "You keep what I build: repos, runbooks, evaluation harnesses, the trained team. I stay on the hook for the outcome, not the demo: monitoring, tuning, the year-two story. Engagement shapes: embedded contract, fixed-scope build, or a forward deployed role inside your organisation. Onsite, embedded or remote, in the US and with clients abroad."
     }
   ],
   "portfolioData": [
     {
-      "ImgLink": "/images/consulting.png",
+      "ImgLink": "/images/deploy-grc-onsite.webp",
       "subTitle": "Nasdaq BWise · governance, risk and compliance · forward deployed",
       "title": "GRC platform implementations, onsite, for regulated clients",
       "link": "",
@@ -212,7 +212,7 @@
       ]
     },
     {
-      "ImgLink": "/images/services-3.jpg",
+      "ImgLink": "/images/deploy-bank-audit.webp",
       "subTitle": "MUFG · investment banking · then Citi",
       "title": "Six years inside one bank: enterprise data under audit",
       "link": "",
@@ -238,7 +238,7 @@
       ]
     },
     {
-      "ImgLink": "/images/services-2.jpg",
+      "ImgLink": "/images/deploy-ledgerproof.webp",
       "subTitle": "Own product · self-hosted · redaction, policy as code, hash-chained audit log",
       "title": "Ledgerproof: a governed AI gateway for accounting firms",
       "link": "https://ledgerproof.netlify.app/",
@@ -264,7 +264,7 @@
       ]
     },
     {
-      "ImgLink": "/images/services-1.jpg",
+      "ImgLink": "/images/deploy-orchest.webp",
       "subTitle": "Own practice · architecture for local models and agents",
       "title": "Orchest AI: the self-hosted agent stack you own",
       "link": "https://alphadata-agentic-ai.netlify.app/",
@@ -310,7 +310,7 @@
       ]
     },
     {
-      "ImgLink": "/images/comingsoon-1.jpg",
+      "ImgLink": "/images/deploy-cost-dashboard.webp",
       "subTitle": "Power BI · AI Strategy · Model Routing",
       "title": "Enterprise AI Cost Optimization Dashboard",
       "link": "",
@@ -332,7 +332,7 @@
   ],
   "blogData": [
     {
-      "ImgLink": "/images/consulting.png",
+      "ImgLink": "/images/blog/onsite-playbook.webp",
       "date": "26 August, 2026",
       "delay": "700",
       "title": "The onsite implementation playbook: what years across GRC clients and six years inside one bank taught me",
@@ -361,7 +361,7 @@
       ]
     },
     {
-      "ImgLink": "/images/blog/gap-widening-agentic-ai.jpg",
+      "ImgLink": "/images/blog/fde-job.webp",
       "date": "26 August, 2026",
       "delay": "700",
       "title": "What a forward deployed engineer actually does, and why the title is newer than the job",
@@ -381,7 +381,7 @@
       ]
     },
     {
-      "ImgLink": "/images/blog/eu-ai-act-enforcement.jpg",
+      "ImgLink": "/images/blog/change-control.webp",
       "date": "26 August, 2026",
       "delay": "700",
       "title": "Change control is not the enemy: shipping AI inside a bank's release process",
@@ -401,7 +401,7 @@
       ]
     },
     {
-      "ImgLink": "/images/blog/quiet-death-static-dashboard.jpg",
+      "ImgLink": "/images/blog/audit-trail-product.webp",
       "date": "26 August, 2026",
       "delay": "700",
       "title": "The audit trail is the product: evidence-first AI for regulated firms",
@@ -421,7 +421,7 @@
       ]
     },
     {
-      "ImgLink": "/images/consulting.png",
+      "ImgLink": "/images/blog/own-your-ai.webp",
       "date": "26 August, 2026",
       "delay": "700",
       "title": "Own your AI: why open-weight parity did not move enterprise adoption",
@@ -441,7 +441,7 @@
       ]
     },
     {
-      "ImgLink": "/images/blog/ai-factory-model.jpg",
+      "ImgLink": "/images/blog/pipelines-loops-agents.svg",
       "date": "26 August, 2026",
       "delay": "700",
       "title": "Agents are not the default: loops, harnesses, and when a plain pipeline wins",
@@ -578,7 +578,7 @@
     }
   },
   "footerData": {
-    "ImgLink": "/images/about-banner.png",
+    "ImgLink": "/images/about-banner-fde.webp",
     "name": "Umair Tareen"
   },
   "socialData": [
